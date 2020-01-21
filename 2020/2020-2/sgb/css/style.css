@@ -1,3 +1,5 @@
+/* --------------------------General----------------------------------------- */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,9 @@
 body {
     overflow-x: hidden;
 }
+
+
+/* ---------------------------------Header----------------------------------- */
 
 .header {
     height: 66vh;
@@ -32,33 +37,49 @@ body {
 }
 
 .header-video video {
+    margin-top: 9vh;
     min-width: 65%;
     min-height: 65%;
 }
 
-.header-over {
-    height: 100vh;
-    width: 74vw;
+
+/* .header-over {
+    margin-top: 9vh;
+    height: 89vh;
+    width: 64.5vw;
     position: absolute;
     top: 0;
-    left: 12.4vw;
-    /* background: #000; */
+    left: 17.2vw;
+    background: #000;
     z-index: 1;
-    opacity: .50;
+    opacity: .25;
+} */
+
+.header-content {
+    z-index: 2;
+    padding: 65vh 0 0 0;
 }
 
-.titulo .titulo {
-    padding: 40px;
+.header-content h1 {
+    padding-top: 10px;
 }
 
-.container h1,
-.container p {
-    text-shadow: 3px 3px 3px black;
-    /* background: #000; */
+.header-content h1,
+.header-content p {
+    text-shadow: 3px 3px 3px #000;
 }
 
 nav {
-    color: #fff;
-    position: relative;
-    top: -45%;
+    margin-top: 30vh;
+}
+
+nav li {
+    font-size: 24px;
+}
+
+
+/* ------------------------------Descripción------------------------------- */
+
+.Descripcion {
+    padding-top: 40vh;
 }
