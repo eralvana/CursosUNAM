@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+.seccion .columna {
+    padding: 60px 0 0 0;
+}
+
 
 /* ---------------------------------Header----------------------------------- */
 
@@ -117,12 +121,28 @@ nav ul li a.active {
 /* ------------------------------Descripción------------------------------- */
 
 .Descripcion {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-top: 40px;
-    padding-bottom: 40px;
-    background:#0040FF;
+    padding-bottom: 60px;
+    background: #0040FF;
     color: #fff;
+}
+
+
+/* -------------------------------Bibliografia------------------------------------------- */
+
+.Bibliografia {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*-------------------------------Contacto--------------------------------------------*/
+
+.Contacto {
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 
@@ -167,7 +187,7 @@ nav ul li a.active {
 
 @media(max-width: 400px) {
     .header-content {
-        padding-top: 45%;
+        padding-top: 0px;
     }
     .header-content h1 {
         padding-top: 5px;
