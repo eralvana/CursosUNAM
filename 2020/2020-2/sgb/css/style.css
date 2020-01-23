@@ -1,26 +1,27 @@
     /* --------------------------General----------------------------------------- */
-    
+
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        background: #0047b3
     }
-    
+
     body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
-    
+
     .seccion .columna {
         padding: 60px 0 0 0;
     }
     /* ---------------------------------Header----------------------------------- */
-    
+
     .header {
         height: 600px;
         display: flex;
         align-items: center;
     }
-    
+
     .content {
         max-width: 55rem;
         padding-left: 1rem;
@@ -28,7 +29,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    
+
     .header-video {
         position: absolute;
         top: 0;
@@ -37,31 +38,31 @@
         /* height: 100%; */
         overflow: hidden;
     }
-    
+
     .header-video video {
         margin-top: 48px;
         width: 900px;
     }
-    
+
     .header-content {
         z-index: 2;
         padding-top: 50%;
     }
-    
+
     .header-content h1 {
         padding-top: 10px;
     }
-    
+
     .header-content p {
         font-size: 20px;
     }
-    
+
     .header-content h1,
     .header-content p {
         text-shadow: 4px 2px 2px #000;
     }
     /* -----------------------------------------menu-------------------------------------------------- */
-    
+
     header .contenedor {
         position: fixed;
         top: 0;
@@ -72,21 +73,21 @@
         background: #000;
         z-index: 3;
     }
-    
+
     header nav {
         float: right;
     }
-    
+
     header nav ul {
         margin: 0;
         padding: 0;
         display: flex;
     }
-    
+
     header nav ul li {
         list-style: none;
     }
-    
+
     nav ul li a {
         height: 54px;
         line-height: 40px;
@@ -95,14 +96,14 @@
         text-decoration: none;
         display: block;
     }
-    
+
     nav ul li a:hover,
     nav ul li a.active {
         color: #fff;
-        background: #0174DF;
+        background: #FF0000;
         text-decoration: none;
     }
-    
+
     .contenedor .barras {
         color: #fff;
         float: left;
@@ -112,40 +113,43 @@
         display: none;
     }
     /* ------------------------------Descripción------------------------------- */
-    
-    .Descripcion {
+
+    .seccion1 {
         margin-top: 100px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-        background: #0047b3;
-        background-size: 60%;
-        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #FFFFFF;
+        color: #000000;
+        text-align: center;
     }
-    
-    .Descripcion p {
+
+    .seccion1 p {
         font-size: 24px;
+        margin: 30px;
+        padding: 20px;
     }
-    
-    .Descripcion .img {
-        padding: 40px 30px;
+
+    .seccion1 .img {
+      padding: 50px 50px;
     }
     /* -----------------------------------------------Temario-------------------------------------------------- */
-    
+
     .Temario {
         padding-top: 40px;
         padding-bottom: 60px;
-        color: #000;
+        background: #0047b3;
+        color: #FFFFFF
     }
-    
+
     .Temario .lista {
         padding-left: 100px;
     }
-    
+
     .Temario .img .reflexion {
         padding-left: 30px;
     }
     /* --------------------------------------------Metodología-------------------------------------------------------- */
-    
+
     .Metodologia {
         padding-top: 40px;
         padding-bottom: 100px;
@@ -153,7 +157,7 @@
         color: #fff;
     }
     /* -----------------------------------Evaluacion------------------------------------------------ */
-    
+
     .Evaluacion {
         padding-top: 40px;
         padding-bottom: 60px;
@@ -161,13 +165,13 @@
         color: #fff;
     }
     /* -------------------------------Bibliografia------------------------------------------- */
-    
+
     .Bibliografia {
         padding-top: 40px;
         padding-bottom: 60px;
     }
     /*-------------------------------Contacto--------------------------------------------*/
-    
+
     .Contacto {
         padding-top: 40px;
         padding-bottom: 80px;
@@ -175,14 +179,14 @@
         color: #fff;
     }
     /* ---------------------------------Pie-página------------------------------------------ */
-    
+
     .Pie-pagina {
         background: #000;
         color: #fff;
         padding: 10px;
     }
     /* -----------------------------Media----------------------------------------- */
-    
+
     @media(max-width: 991px) {
         header .contenedor {
             padding: 0 20px;
@@ -211,19 +215,19 @@
             border-bottom: 1px solid rgba(0, 0, 0, .3);
         }
     }
-    
+
     @media(max-width: 900px) {
         .header-video video {
             width: 100%;
         }
     }
-    
+
     @media(max-width: 500px) {
         header nav {
             width: 35%;
         }
     }
-    
+
     @media(max-width: 400px) {
         .header {
             height: 300px;
