@@ -6,65 +6,64 @@
         box-sizing: border-box;
     }
     
-    body main {
-        /* background: #c2c2c2; */
-        background-image: url(../img-video/dark.png);
+    body {
+        overflow-x: hidden;
     }
     
     .seccion .columna {
-        padding: 90px 0 0 0;
+        padding: 60px 0 0 0;
     }
     /* ---------------------------------Header----------------------------------- */
-    
-    header {
-        height: 550px;
-    }
-    
-    .titulo {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-sizing: border-box;
-        background: #062768;
+    /* .header-content {
         z-index: 2;
-        /* color: #fff; */
-        padding: 20px;
-        font-size: 24px;
+        padding-top: 50%;
+        height: 500px;
+    } */
+    /* .content {
+        max-width: 55rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0 auto;
+        text-align: center;
+    } */
+    /* .header-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+        overflow: hidden;
+    } */
+    /* .header-video video {
+        margin-top: 48px;
+        width: 900px;
+    } */
+    /* .header-content h1 {
+        padding-top: 10px;
     }
     
-    .video {
-        padding-top: 200px;
-        padding-bottom: 50px;
-    }
-    
-    .video .informacion {
-        padding-top: 80px;
-    }
-    
-    .video p {
-        padding: 5px;
-        font-size: 24px;
-    }
-    
-    .video video {
-        width: 500px;
-    }
+    .header-content p {
+        font-size: 20px;
+    } */
+    /* .header-content h1,
+    .header-content p {
+        text-shadow: 4px 2px 2px #000;
+    } */
     /* -----------------------------------------menu-------------------------------------------------- */
     
     header .contenedor {
         position: fixed;
-        top: 60px;
+        top: 0;
         left: 0;
-        /* padding-top: 10px; */
+        padding: 0 160px;
         width: 100%;
         box-sizing: border-box;
-        background: #062768;
-        z-index: 2;
-        align-items: center;
+        background: #000;
+        z-index: 3;
     }
     
     header nav {
-        text-align: center;
+        float: right;
     }
     
     header nav ul {
@@ -75,13 +74,12 @@
     
     header nav ul li {
         list-style: none;
-        text-align: center;
     }
     
     nav ul li a {
         height: 54px;
         line-height: 40px;
-        /* padding: 0 25px; */
+        padding: 0 25px;
         color: #fff;
         text-decoration: none;
         display: block;
@@ -90,45 +88,42 @@
     nav ul li a:hover,
     nav ul li a.active {
         color: #fff;
-        background: #FF0000;
+        background: #0174DF;
         text-decoration: none;
     }
     
-    .barras {
-        /* color: #fff; */
-        float: right;
-        line-height: 10px;
-        font-size: 30px;
+    .contenedor .barras {
+        color: #fff;
+        float: left;
+        line-height: 50px;
+        font-size: 24px;
         cursor: pointer;
-        /* display: none; */
-        z-index: 10;
+        display: none;
     }
     /* ------------------------------Descripción------------------------------- */
     
     .Descripcion {
         margin-top: 100px;
-        padding-top: 60px;
-        padding-bottom: 20px;
-        text-align: center;
-        color: #FFFFFF
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background: #0047b3;
+        background-size: 60%;
+        color: #fff;
     }
     
     .Descripcion p {
         font-size: 24px;
-        margin: 30px;
-        padding: 20px;
     }
     
     .Descripcion .img {
-        padding: 140px 0 0 0;
+        padding: 40px 30px;
     }
     /* -----------------------------------------------Temario-------------------------------------------------- */
     
     .Temario {
         padding-top: 40px;
         padding-bottom: 60px;
-        /* background: #0047b3; */
-        color: #FFFFFF
+        color: #000;
     }
     
     .Temario .lista {
@@ -143,7 +138,7 @@
     .Metodologia {
         padding-top: 40px;
         padding-bottom: 100px;
-        /* background: #1a66ff; */
+        background: #1a66ff;
         color: #fff;
     }
     /* -----------------------------------Evaluacion------------------------------------------------ */
@@ -151,7 +146,7 @@
     .Evaluacion {
         padding-top: 40px;
         padding-bottom: 60px;
-        /* background: #0B610B; */
+        background: #0B610B;
         color: #fff;
     }
     /* -------------------------------Bibliografia------------------------------------------- */
@@ -159,43 +154,38 @@
     .Bibliografia {
         padding-top: 40px;
         padding-bottom: 60px;
-        color: #FFFFFF
     }
     /*-------------------------------Contacto--------------------------------------------*/
     
     .Contacto {
         padding-top: 40px;
         padding-bottom: 80px;
-        /* background: rgb(38, 38, 38, 0.8); */
+        background: rgb(38, 38, 38, 0.8);
         color: #fff;
     }
     /* ---------------------------------Pie-página------------------------------------------ */
     
     .Pie-pagina {
-        background: #0A0668;
+        background: #000;
         color: #fff;
         padding: 10px;
     }
     /* -----------------------------Media----------------------------------------- */
     
     @media(max-width: 991px) {
-        /* header .contenedor {
+        header .contenedor {
             padding: 0 20px;
-        } */
-        .titulo h1 {
-            text-align: left;
-            padding-left: 10px;
         }
-        .barras {
+        .contenedor .barras {
             display: block;
-            z-index: 3;
+            /* color: #000; */
         }
         header nav {
             position: absolute;
             width: 25%;
             height: calc(100vh-50px);
             background: #333;
-            top: 5px;
+            top: 50px;
             left: -100%;
             transition: 0.5s;
         }
