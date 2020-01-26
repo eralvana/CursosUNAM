@@ -294,7 +294,7 @@
             top: 42px;
         }
         header nav {
-            height: calc(100%-47px);
+            height: calc(90%-0px);
         }
         nav ul li a {
             height: 7.7vh;
