@@ -293,6 +293,12 @@
         header .contenedor {
             top: 42px;
         }
+        header nav {
+            height: calc(100%-0px);
+        }
+        nav ul li a {
+            height: 8.5vh;
+        }
         .Descripcion {
             margin-top: 0px;
             padding-top: 10px;
