@@ -40,7 +40,6 @@
         padding-top: 200px;
         padding-bottom: 50px;
         right: 0;
-        /* background: #c2c2c2; */
     }
     
     .video .informacion {
@@ -193,12 +192,52 @@
         /* background: rgb(38, 38, 38, 0.8); */
         color: #fff;
     }
+    /* --------------------------------------Noticias------------------------------------------------ */
+    
+    .Noticias {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        padding-left: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .Noticias .cuadro1,
+    .Noticias .cuadro2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Noticias .cuadro1 {
+        height: 200px;
+        margin-top: 20px;
+        background-image: url(../img-video/triangulos-azules.png);
+    }
+    
+    .Noticias .cuadro2 {
+        height: 200px;
+        margin-top: 20px;
+        background-image: url(../img-video/triangulos-grises.jpg);
+    }
+    /* ------------------------------------Historial--------------------------------------------------- */
+    
+    .Historial {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        padding-left: 10px;
+        color: #fff;
+        text-align: center;
+    }
     /* ---------------------------------Pie-página------------------------------------------ */
     
     .Pie-pagina {
-        background: #0A0668;
+        background: #062768;
         color: #fff;
         padding: 10px;
+        text-align: center;
+        padding-right: 27%;
     }
     /* -----------------------------Media----------------------------------------- */
     
