@@ -294,11 +294,11 @@
             top: 42px;
         }
         header nav {
-            height: calc(90%-0px);
+            height: calc(95%-0px);
         }
         nav ul li a {
             height: 7.7vh;
-            line-height: 20px;
+            line-height: 30px;
         }
         .Descripcion {
             margin-top: 0px;
