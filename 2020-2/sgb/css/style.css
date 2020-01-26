@@ -265,12 +265,12 @@
         .header-content {
             padding-top: 70px;
         }
-        .header-content h1 {
+        /* .header-content h1 {
             padding-top: 5px;
             font-size: 16px;
-        }
+        } */
         .header-content p {
-            font-size: 12px;
+            font-size: 18px;
         }
         .video {
             padding-top: 10px;
