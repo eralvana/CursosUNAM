@@ -7,17 +7,18 @@
     }
     
     body main {
-        /* background: #c2c2c2; */
         background-image: url(../img-video/dark.png);
+        padding-left: 27%;
     }
     
     .seccion .columna {
-        padding: 90px 0 0 0;
+        padding: 10% 0 0 0;
     }
     /* ---------------------------------Header----------------------------------- */
     
     header {
         height: 550px;
+        width: 74%;
     }
     
     .titulo {
@@ -27,18 +28,22 @@
         box-sizing: border-box;
         background: #062768;
         z-index: 2;
-        /* color: #fff; */
-        padding: 20px;
-        font-size: 24px;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
     }
     
     .video {
+        position: relative;
+        text-align: center;
         padding-top: 200px;
         padding-bottom: 50px;
+        left: 35%;
+        /* background: #c2c2c2; */
     }
     
     .video .informacion {
-        padding-top: 80px;
+        padding-top: 15px;
     }
     
     .video p {
@@ -47,7 +52,7 @@
     }
     
     .video video {
-        width: 400px;
+        width: 350px;
     }
     /* -----------------------------------------menu-------------------------------------------------- */
     
@@ -55,7 +60,6 @@
         position: fixed;
         top: 60px;
         left: 0;
-        /* padding-top: 10px; */
         width: 100%;
         box-sizing: border-box;
         background: #062768;
@@ -64,13 +68,28 @@
     }
     
     header nav {
+        /* text-align: center; */
+        position: absolute;
+        width: 25%;
+        height: calc(100vh-50px);
+        background: #333;
+        top: 5px;
+        left: 0;
+        transition: 0.5s;
+    }
+    
+    header nav ul {
+        display: block;
         text-align: center;
     }
+    /* header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, .3);
+    } */
     
     header nav ul {
         margin: 0;
         padding: 0;
-        display: flex;
+        /* display: flex; */
     }
     
     header nav ul li {
@@ -79,9 +98,8 @@
     }
     
     nav ul li a {
-        height: 54px;
+        height: 9.2vh;
         line-height: 40px;
-        /* padding: 0 25px; */
         color: #fff;
         text-decoration: none;
         display: block;
@@ -94,14 +112,16 @@
         text-decoration: none;
     }
     
-    .barras {
-        /* color: #fff; */
+    header .barras {
+        color: #fff;
+        position: fixed;
         float: right;
         line-height: 10px;
         font-size: 30px;
         cursor: pointer;
-        /* display: none; */
-        z-index: 10;
+        display: none;
+        z-index: 3;
+        padding: 18px;
     }
     /* ------------------------------Descripción------------------------------- */
     
@@ -151,6 +171,7 @@
     .Evaluacion {
         padding-top: 40px;
         padding-bottom: 60px;
+        padding-left: 10px;
         /* background: #0B610B; */
         color: #fff;
     }
@@ -159,6 +180,7 @@
     .Bibliografia {
         padding-top: 40px;
         padding-bottom: 60px;
+        padding-left: 10px;
         color: #FFFFFF
     }
     /*-------------------------------Contacto--------------------------------------------*/
@@ -166,6 +188,7 @@
     .Contacto {
         padding-top: 40px;
         padding-bottom: 80px;
+        padding-left: 10px;
         /* background: rgb(38, 38, 38, 0.8); */
         color: #fff;
     }
@@ -182,11 +205,20 @@
         /* header .contenedor {
             padding: 0 20px;
         } */
+        body main {
+            padding-left: 0;
+        }
         .titulo h1 {
             text-align: left;
             padding-left: 10px;
         }
-        .barras {
+        header {
+            width: 100%;
+        }
+        .video {
+            left: 0%;
+        }
+        header .barras {
             display: block;
             z-index: 3;
         }
@@ -209,14 +241,14 @@
         header nav ul li a {
             border-bottom: 1px solid rgba(0, 0, 0, .3);
         }
+        .video video {
+            width: 400px;
+        }
     }
     
     @media(max-width: 900px) {
-        /* .header-video video {
-            width: 100%;
-        } */
         .video video {
-            width: 300px;
+            width: 350px;
         }
     }
     
@@ -228,7 +260,7 @@
     
     @media(max-width: 400px) {
         .header {
-            height: 300px;
+            height: 200px;
         }
         .header-content {
             padding-top: 70px;
@@ -240,15 +272,48 @@
         .header-content p {
             font-size: 12px;
         }
+        .video {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .video video {
+            width: 280px;
+        }
+        header .titulo {
+            font-size: 18px;
+        }
+        header .barras {
+            position: fixed;
+            top: 0;
+            padding: 16px 5px 10px 10px;
+            line-height: 0;
+            font-size: 18px;
+            /* color: #000; */
+        }
+        header .contenedor {
+            top: 42px;
+        }
         .Descripcion {
-            margin-top: -15px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            margin-top: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .Descripcion .img {
+            padding: 10px 0 0 0;
         }
         .Descripcion .img img {
-            width: 260px;
+            width: 240px;
+        }
+        .Temario .img {
+            text-align: center;
         }
         .Temario .img img {
-            width: 290px;
+            width: 250px;
+        }
+        .Temario .img .reflexion {
+            padding-left: 0;
+        }
+        .Bibliografia .libro {
+            text-align: center;
         }
     }
