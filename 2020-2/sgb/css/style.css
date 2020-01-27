@@ -1,4 +1,3 @@
-<<<<<<< HEAD
     /* --------------------------General----------------------------------------- */
     
     * {
@@ -157,162 +156,6 @@
         color: #FFFFFF
     }
     
-=======
-/* --------------------------General----------------------------------------- */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body main {
-  background-image: url(../img-video/dark.png);
-  padding-right: 25%;
-}
-
-.seccion .columna {
-  padding: 10% 0 0 0;
-}
-
-/* ---------------------------------Header----------------------------------- */
-header {
-  height: 550px;
-  width: 75%;
-}
-
-.titulo {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-sizing: border-box;
-  background: #062768;
-  z-index: 2;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.video {
-  position: relative;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  right: 0;
-}
-
-.video .informacion {
-  padding-top: 25px;
-}
-
-.video p {
-  padding: 20px;
-  font-size: 20px;
-}
-
-.video video {
-  width: 500px;
-}
-
-/* -----------------------------------------menu-------------------------------------------------- */
-
-header .contenedor {
-  position: fixed;
-  top: 100px;
-  right: 0;
-  width: 75%;
-  box-sizing: border-box;
-  background: #062768;
-  z-index: 2;
-  align-items: center;
-}
-
-header nav {
-  position: absolute;
-  width: 25%;
-  height: calc(100vh-50px);
-  background: #393939;
-  top: 10px;
-  right: 0;
-  transition: 0.5s;
-}
-
-header nav ul {
-  display: block;
-  text-align: center;
-}
-
-header nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li {
-  list-style: none;
-  text-align: center;
-}
-
-nav ul li a {
-  height: 4vh;
-  line-height: 20px;
-  color: #FFFFFF;
-  text-decoration: none;
-  display: block;
-}
-
-nav ul li a:hover{
-  color: #FFFFFF;
-  background: #0000FF;
-  text-decoration: none;
-}
-
-nav ul li a.active {
-  color: #FFFFFF;
-  background: #1269F7;
-  text-decoration: none;
-}
-
-header .barras {
-  color: #FFFFFF;
-  position: fixed;
-  right: 0;
-  line-height: 10px;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-  z-index: 3;
-  padding: 20px;
-}
-
-/* ------------------------------Descripción------------------------------- */
-.Descripcion {
-  margin: 0px;
-  padding: 20px;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #000000
-}
-
-.Descripcion p {
-  font-size: 24px;
-  margin: 20px;
-  padding: 20px;
-}
-
-.Descripcion .img {
-  padding: 150px;
-}
-
-/* -----------------------------------------------Temario-------------------------------------------------- */
-.Temario {
-  margin: 10px;
-  padding: 10px;
-  font-size: 14pt;
-  background: #0047b3;
-  color: #FFFFFF
-}
-
->>>>>>> 45dca81d536693bd149ba4e727fb721221c34956
     .Temario .lista {
         padding-left: 100px;
     }
@@ -325,7 +168,7 @@ header .barras {
         padding-left: 30px;
     }
     /* --------------------------------------------Metodología-------------------------------------------------------- */
-
+    
     .Metodologia {
         padding-top: 40px;
         padding-bottom: 100px;
@@ -333,7 +176,7 @@ header .barras {
         color: #fff;
     }
     /* -----------------------------------Evaluacion------------------------------------------------ */
-
+    
     .Evaluacion {
         padding-top: 40px;
         padding-bottom: 60px;
@@ -342,7 +185,7 @@ header .barras {
         color: #fff;
     }
     /* -------------------------------Bibliografia------------------------------------------- */
-
+    
     .Bibliografia {
         padding-top: 40px;
         padding-bottom: 60px;
@@ -354,7 +197,7 @@ header .barras {
         text-align: center;
     }
     /*-------------------------------Contacto--------------------------------------------*/
-
+    
     .Contacto {
         padding-top: 40px;
         padding-bottom: 80px;
@@ -363,7 +206,7 @@ header .barras {
         color: #fff;
     }
     /* --------------------------------------Noticias------------------------------------------------ */
-
+    
     .Noticias {
         padding-top: 60px;
         padding-bottom: 80px;
@@ -371,7 +214,7 @@ header .barras {
         color: #fff;
         text-align: center;
     }
-
+    
     .Noticias .cuadro1,
     .Noticias .cuadro2 {
         font-size: 30px;
@@ -379,20 +222,20 @@ header .barras {
         justify-content: center;
         align-items: center;
     }
-
+    
     .Noticias .cuadro1 {
         height: 200px;
         margin-top: 20px;
         background-image: url(../img-video/triangulos-azules.png);
     }
-
+    
     .Noticias .cuadro2 {
         height: 200px;
         margin-top: 20px;
         background-image: url(../img-video/triangulos-grises.jpg);
     }
     /* ------------------------------------Historial--------------------------------------------------- */
-
+    
     .Historial {
         padding-top: 40px;
         padding-bottom: 80px;
@@ -401,7 +244,7 @@ header .barras {
         text-align: center;
     }
     /* ---------------------------------Pie-página------------------------------------------ */
-
+    
     .Pie-pagina {
         background: #062768;
         color: #fff;
@@ -410,7 +253,7 @@ header .barras {
         padding-right: 27%;
     }
     /* -----------------------------Media----------------------------------------- */
-
+    
     @media(max-width: 991px) {
         /* header .contenedor {
             padding: 0 20px;
@@ -454,13 +297,13 @@ header .barras {
             padding-right: 0;
         }
     }
-
+    
     @media(max-width: 900px) {
         .video video {
             width: 350px;
         }
     }
-
+    
     @media(max-width: 800px) {
         .header-content {
             padding-top: 20px;
@@ -486,7 +329,7 @@ header .barras {
             padding-top: 0px;
         }
     }
-
+    
     @media(max-width: 600px) {
         .header-content {
             padding-top: 10px;
@@ -500,13 +343,13 @@ header .barras {
             padding-top: 10px;
         }
     }
-
+    
     @media(max-width: 500px) {
         header nav {
             width: 35%;
         }
     }
-
+    
     @media(max-width: 400px) {
         .header {
             height: 200px;
