@@ -32,9 +32,12 @@
         background: #062768;
         z-index: 2;
         padding: 10px;
-        font-size: 30px;
         text-align: center;
         color: #fff;
+    }
+    
+    .titulo p {
+        font-size: 24px;
     }
     
     .video {
@@ -73,9 +76,8 @@
     header nav {
         position: absolute;
         width: 25%;
-        height: calc(100vh-50px);
         background: #333;
-        top: 5px;
+        top: 67px;
         right: 0;
     }
     
@@ -85,24 +87,14 @@
         margin: 0;
         padding: 0;
     }
-    /* header nav ul li a {
-        border-bottom: 1px solid rgba(0, 0, 0, .3);
-    } */
-    /* header nav ul {
-        margin: 0;
-        padding: 0;
-    } */
     
     header nav ul li {
         list-style: none;
         text-align: center;
     }
-    /* header nav ul li:nth-child(1) a {
-        background: #1269F7;
-    } */
     
     nav ul li a {
-        height: 9.2vh;
+        height: 52px;
         line-height: 40px;
         color: #fff;
         text-decoration: none;
@@ -274,9 +266,8 @@
         header nav {
             position: absolute;
             width: 25%;
-            height: calc(100vh-50px);
             background: #333;
-            top: 5px;
+            top: 68px;
             right: -100%;
             transition: 0.5s;
         }
@@ -334,6 +325,13 @@
         .header-content {
             padding-top: 10px;
         }
+        header nav {
+            top: 32px;
+        }
+        .titulo h1,
+        .titulo p {
+            font-size: 18px;
+        }
         .video {
             padding-top: 100px;
             padding-bottom: 10px;
@@ -347,44 +345,43 @@
     @media(max-width: 500px) {
         header nav {
             width: 35%;
+            top: 27px;
+        }
+        .titulo h1,
+        .titulo p {
+            font-size: 16px;
+        }
+        .video {
+            position: relative;
+            top: 20%;
+            padding-top: 30px;
+            padding-bottom: 10px;
         }
     }
     
     @media(max-width: 400px) {
-        .header {
-            height: 200px;
-        }
-        .header-content {
-            padding-top: 70px;
-        }
-        .header-content p {
-            font-size: 18px;
-        }
         .video {
-            padding-top: 10px;
-            padding-bottom: 10px;
+            top: 15%;
         }
         .video video {
             width: 280px;
         }
-        header .titulo {
-            font-size: 18px;
+        .titulo h1,
+        .titulo p {
+            font-size: 15px;
         }
         header .barras {
             position: fixed;
             top: 0;
             padding: 16px 5px 10px 10px;
             line-height: 0;
-            font-size: 18px;
-        }
-        header .contenedor {
-            top: 42px;
+            font-size: 20px;
         }
         header nav {
-            height: calc(95%-0px);
+            top: 24px;
         }
         nav ul li a {
-            height: 7.8vh;
+            height: 40px;
             line-height: 30px;
         }
         .Descripcion {
@@ -409,5 +406,15 @@
         }
         .Bibliografia .libro {
             text-align: center;
+        }
+    }
+    
+    @media(max-width: 362px) {
+        header nav {
+            top: 46px;
+        }
+        nav ul li a {
+            height: 38px;
+            line-height: 15px;
         }
     }
