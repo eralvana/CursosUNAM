@@ -155,6 +155,10 @@
         padding-left: 100px;
     }
     
+    .Temario .img {
+        text-align: center;
+    }
+    
     .Temario .img .reflexion {
         padding-left: 30px;
     }
@@ -182,6 +186,10 @@
         padding-bottom: 60px;
         padding-left: 10px;
         color: #FFFFFF
+    }
+    
+    .Bibliografia .libro {
+        text-align: center;
     }
     /*-------------------------------Contacto--------------------------------------------*/
     
@@ -279,6 +287,9 @@
         }
         .video video {
             width: 300px;
+        }
+        .Pie-pagina {
+            padding-right: 0;
         }
     }
     
