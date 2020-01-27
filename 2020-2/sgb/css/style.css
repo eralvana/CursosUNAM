@@ -16,7 +16,7 @@ body main {
 }
 
 .seccion .columna {
-    padding-top: 12%;
+    padding-top: 20%;
 }
 
 
@@ -394,7 +394,7 @@ header .barras {
     }
     .titulo h1,
     .titulo p {
-        font-size: 15px;
+        font-size: 14px;
     }
     header .barras {
         position: fixed;
@@ -403,16 +403,19 @@ header .barras {
         line-height: 0;
         font-size: 20px;
     }
+    header .contenedor {
+        top: 14%;
+    }
     header nav {
-        top: 24px;
+        top: 0;
     }
     nav ul li a {
         height: 40px;
         line-height: 30px;
     }
     .Descripcion {
-        margin-top: 0px;
-        padding-top: 10px;
+        /* margin-top: 0px; */
+        padding-top: 20px;
         padding-bottom: 10px;
     }
     .Descripcion .img {
@@ -433,12 +436,12 @@ header .barras {
     .Bibliografia .libro {
         text-align: center;
     }
+    .Noticias {
+        padding-top: 25%;
+    }
 }
 
 @media(max-width: 362px) {
-    header nav {
-        top: 46px;
-    }
     nav ul li a {
         height: 38px;
         line-height: 15px;
@@ -446,5 +449,11 @@ header .barras {
     .video {
         margin-top: 15%;
         top: 20%;
+    }
+}
+
+@media(max-width: 338px) {
+    header .contenedor {
+        top: 17.3%;
     }
 }
