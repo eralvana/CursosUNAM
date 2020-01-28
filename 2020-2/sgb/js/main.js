@@ -104,3 +104,9 @@ $(document).ready(function() {
 
 
 });
+
+var reproductor = videojs('s-video', {
+    fluid: true,
+    autoplay: 'muted',
+    loop: true
+});

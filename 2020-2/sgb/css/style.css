@@ -446,10 +446,10 @@ header .barras {
         height: 38px;
         line-height: 15px;
     }
-    .video {
-        margin-top: 15%;
-        top: 20%;
-    }
+    /* .video {
+        margin-top: 10%;
+        top: 10%;
+    } */
 }
 
 @media(max-width: 338px) {
