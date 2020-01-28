@@ -16,15 +16,17 @@ body main {
 }
 
 .seccion .columna {
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 
 /* ---------------------------------Header----------------------------------- */
 
 header {
-    margin-top: 10%;
-    height: 150%;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 5%;
+    /* height: 150%; */
 }
 
 .titulo {
@@ -47,7 +49,7 @@ header {
     position: relative;
     text-align: center;
     /* margin-top: 30%; */
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 50px;
     right: 0;
     /* background: #d2d; */
@@ -71,7 +73,7 @@ header {
 
 header .contenedor {
     position: fixed;
-    top: 19%;
+    /* top: 19%; */
     left: 0;
     width: 100%;
     box-sizing: border-box;
@@ -105,7 +107,7 @@ nav ul li a {
 }
 
 nav ul li a:hover,
-nav ul li a.active {
+nav ul li.active {
     color: #fff;
     background: #1269F7;
     text-decoration: none;
@@ -151,11 +153,9 @@ header .barras {
 /* -----------------------------------------------Temario-------------------------------------------------- */
 
 .Temario {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
-    /* background: #0047b3; */
     color: #FFFFFF;
-    /* background-color: #FF0000; */
 }
 
 .Temario .lista {
@@ -174,8 +174,8 @@ header .barras {
 /* --------------------------------------------Metodología-------------------------------------------------------- */
 
 .Metodologia {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     /* background: #1a66ff; */
     color: #fff;
 }
@@ -184,7 +184,7 @@ header .barras {
 /* -----------------------------------Evaluacion------------------------------------------------ */
 
 .Evaluacion {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 10px;
     /* background: #0B610B; */
@@ -195,7 +195,7 @@ header .barras {
 /* -------------------------------Bibliografia------------------------------------------- */
 
 .Bibliografia {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 10px;
     color: #FFFFFF
@@ -221,7 +221,7 @@ header .barras {
 /* --------------------------------------Noticias------------------------------------------------ */
 
 .Noticias {
-    padding-top: 15%;
+    padding-top: 16.5%;
     padding-bottom: 80px;
     padding-left: 10px;
     color: #fff;
@@ -282,6 +282,9 @@ header .barras {
     header {
         width: 100%;
     }
+    header .contenedor {
+        padding-top: 10px;
+    }
     .video {
         right: 0%;
     }
@@ -291,9 +294,8 @@ header .barras {
     }
     header nav {
         position: absolute;
-        width: 25%;
+        width: 20%;
         background: #333;
-        top: 68px;
         right: -100%;
         transition: 0.5s;
     }
@@ -332,7 +334,8 @@ header .barras {
         line-height: 10px;
         font-size: 22px;
     }
-    .titulo {
+    .titulo h1,
+    .titulo p {
         padding: 10px;
         font-size: 28px;
     }
@@ -348,11 +351,8 @@ header .barras {
 }
 
 @media(max-width: 600px) {
-    .header-content {
-        padding-top: 10px;
-    }
     header nav {
-        top: 32px;
+        width: 25%;
     }
     .titulo h1,
     .titulo p {
@@ -361,10 +361,6 @@ header .barras {
     .video {
         padding-top: 100px;
         padding-bottom: 10px;
-    }
-    .Descripcion {
-        margin-top: 10px;
-        padding-top: 10px;
     }
     .Descripcion .img img {
         width: 160px;
@@ -377,7 +373,6 @@ header .barras {
 @media(max-width: 500px) {
     header nav {
         width: 35%;
-        top: 27px;
     }
     .titulo h1,
     .titulo p {
@@ -387,15 +382,23 @@ header .barras {
         position: relative;
         padding-bottom: 10px;
     }
+    nav ul li a {
+        height: 43px;
+        line-height: 40px;
+    }
 }
 
 @media(max-width: 400px) {
+    .seccion .columna {
+        padding-top: 8%;
+    }
     .video video {
         width: 280px;
     }
     .titulo h1,
     .titulo p {
         font-size: 14px;
+        padding: 2px;
     }
     header .barras {
         position: fixed;
@@ -404,26 +407,27 @@ header .barras {
         line-height: 0;
         font-size: 20px;
     }
-    header .contenedor {
-        top: 14%;
-    }
-    header nav {
-        top: 0;
-    }
     nav ul li a {
         height: 40px;
         line-height: 30px;
     }
     .Descripcion {
-        /* margin-top: 0px; */
         padding-top: 20px;
         padding-bottom: 10px;
+    }
+    .Descripcion p {
+        font-size: 16px;
+        margin: 2px;
+        padding: 10px;
     }
     .Descripcion .img {
         padding: 10px 0 0 0;
     }
     .Descripcion .img img {
         width: 240px;
+    }
+    .Temario {
+        padding-top: 20px;
     }
     .Temario .img {
         text-align: center;
@@ -434,11 +438,23 @@ header .barras {
     .Temario .img .reflexion {
         padding-left: 0;
     }
+    .Metodologia {
+        padding-top: 20px;
+    }
+    .Evaluacion {
+        padding-top: 20px;
+    }
+    .Bibliografia {
+        padding-top: 20px;
+    }
     .Bibliografia .libro {
         text-align: center;
     }
     .Noticias {
-        padding-top: 25%;
+        padding-top: 12%;
+    }
+    .Contacto {
+        padding-top: 12%;
     }
 }
 
@@ -447,14 +463,11 @@ header .barras {
         height: 38px;
         line-height: 15px;
     }
-    /* .video {
-        margin-top: 10%;
-        top: 10%;
-    } */
 }
 
-@media(max-width: 338px) {
+
+/* @media(max-width: 338px) {
     header .contenedor {
         top: 17.3%;
     }
-}
+} */
