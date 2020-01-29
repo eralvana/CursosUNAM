@@ -14,7 +14,7 @@ $(document).ready(function() {
         var a = 28;
     }
     if ($(window).width() < 353) {
-        var a = 45;
+        var a = 50;
     }
 
     var Header = $('#Header').offset().top - 70,
