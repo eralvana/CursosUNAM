@@ -19,6 +19,80 @@ $(document).ready(function() {
             Bibliografia = $('#Bibliografia').offset().top - 76,
             Contacto = $('#Contacto').offset().top - 76;
     }
+    if ($(window).width() <= 900 && $(window).width() > 800) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 110,
+            Descripcion = $('#Descripcion').offset().top - 110,
+            Historial = $('#Historial').offset().top - 110,
+            Temario = $('#Temario').offset().top - 110,
+            Metodologia = $('#Metodologia').offset().top - 110,
+            Evaluacion = $('#Evaluacion').offset().top - 110,
+            Bibliografia = $('#Bibliografia').offset().top - 110,
+            Contacto = $('#Contacto').offset().top - 110;
+    }
+
+    if ($(window).width() <= 800) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 140,
+            Descripcion = $('#Descripcion').offset().top - 140,
+            Historial = $('#Historial').offset().top - 140,
+            Temario = $('#Temario').offset().top - 140,
+            Metodologia = $('#Metodologia').offset().top - 140,
+            Evaluacion = $('#Evaluacion').offset().top - 140,
+            Bibliografia = $('#Bibliografia').offset().top - 140,
+            Contacto = $('#Contacto').offset().top - 140;
+    }
+    if ($(window).width() <= 700) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 135,
+            Descripcion = $('#Descripcion').offset().top - 135,
+            Historial = $('#Historial').offset().top - 135,
+            Temario = $('#Temario').offset().top - 135,
+            Metodologia = $('#Metodologia').offset().top - 135,
+            Evaluacion = $('#Evaluacion').offset().top - 135,
+            Bibliografia = $('#Bibliografia').offset().top - 135,
+            Contacto = $('#Contacto').offset().top - 135;
+    }
+    if ($(window).width() <= 600) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 118,
+            Descripcion = $('#Descripcion').offset().top - 118,
+            Historial = $('#Historial').offset().top - 118,
+            Temario = $('#Temario').offset().top - 118,
+            Metodologia = $('#Metodologia').offset().top - 118,
+            Evaluacion = $('#Evaluacion').offset().top - 118,
+            Bibliografia = $('#Bibliografia').offset().top - 118,
+            Contacto = $('#Contacto').offset().top - 118;
+    }
+    if ($(window).width() <= 576) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 74,
+            Descripcion = $('#Descripcion').offset().top - 74,
+            Historial = $('#Historial').offset().top - 74,
+            Temario = $('#Temario').offset().top - 74,
+            Metodologia = $('#Metodologia').offset().top - 74,
+            Evaluacion = $('#Evaluacion').offset().top - 74,
+            Bibliografia = $('#Bibliografia').offset().top - 74,
+            Contacto = $('#Contacto').offset().top - 74;
+    }
+    if ($(window).width() <= 576) {
+        // var a = 79;
+        var Header = $('#Header').offset().top - 70,
+            Noticias = $('#Noticias').offset().top - 70,
+            Descripcion = $('#Descripcion').offset().top - 70,
+            Historial = $('#Historial').offset().top - 70,
+            Temario = $('#Temario').offset().top - 70,
+            Metodologia = $('#Metodologia').offset().top - 70,
+            Evaluacion = $('#Evaluacion').offset().top - 70,
+            Bibliografia = $('#Bibliografia').offset().top - 70,
+            Contacto = $('#Contacto').offset().top - 70;
+    }
+
     if ($(window).width() < 400) {
         // var a = 28;
         var Header = $('#Header').offset().top - 70,

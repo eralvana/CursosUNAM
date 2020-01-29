@@ -364,6 +364,22 @@ header .barras {
     }
 }
 
+@media(max-width:700px) {
+    .titulo h2 {
+        font-size: 23px;
+    }
+    .Descripcion .img img {
+        width: 200px;
+    }
+    .Temario .img img {
+        width: 200px;
+    }
+    nav ul li a {
+        height: 46px;
+        line-height: 40px;
+    }
+}
+
 @media(max-width: 600px) {
     header nav {
         width: 25%;
@@ -371,10 +387,6 @@ header .barras {
     .titulo h1,
     .titulo h2 {
         font-size: 18px;
-    }
-    .video {
-        padding-top: 100px;
-        padding-bottom: 10px;
     }
     .Descripcion .img img {
         width: 160px;
@@ -388,9 +400,11 @@ header .barras {
     header nav {
         width: 35%;
     }
-    .titulo h1,
-    .titulo h2 {
+    .titulo h1 {
         font-size: 16px;
+    }
+    .titulo h2 {
+        font-size: 15px;
     }
     .video {
         position: relative;
@@ -407,7 +421,7 @@ header .barras {
         padding-top: 30px;
     }
     .video {
-        margin-top: 0px;
+        margin-top: 80px;
     }
     .video video {
         width: 280px;
