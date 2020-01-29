@@ -13,10 +13,12 @@
 
 body main {
     background-image: url(../img-video/dark.png);
+    padding: 0;
+    margin: 0;
 }
 
 .seccion .columna {
-    padding-top: 10%;
+    padding-top: 52px;
 }
 
 
@@ -41,22 +43,21 @@ header {
     color: #fff;
 }
 
-.titulo p {
+.titulo h2 {
     font-size: 24px;
 }
 
 .video {
     position: relative;
     text-align: center;
-    /* margin-top: 30%; */
-    padding-top: 15%;
-    padding-bottom: 50px;
+    margin-top: 154px;
+    /* padding-top: 15%; */
+    padding-bottom: 30px;
     right: 0;
-    /* background: #d2d; */
 }
 
 .video .informacion {
-    padding-top: 15px;
+    padding-top: 55px;
 }
 
 .video p {
@@ -65,7 +66,7 @@ header {
 }
 
 .video video {
-    width: 350px;
+    width: 450px;
 }
 
 
@@ -88,7 +89,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
@@ -129,14 +130,25 @@ header .barras {
 
 /* ------------------------------Descripción------------------------------- */
 
+.Descripcion,
+.Temario,
+.Evaluacion,
+.Metodologia,
+.Bibliografia,
+.Contacto,
+.Noticias,
+.Historial {
+    border-top: red solid 4px;
+}
+
 .Descripcion {
     /* margin-top: 100px; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 20px;
     text-align: center;
     color: #FFFFFF;
     transition: 2s;
-    /* background-color: #00FF00 */
+    /* background-color: #00FF00; */
 }
 
 .Descripcion p {
@@ -153,7 +165,7 @@ header .barras {
 /* -----------------------------------------------Temario-------------------------------------------------- */
 
 .Temario {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 60px;
     color: #FFFFFF;
 }
@@ -174,8 +186,8 @@ header .barras {
 /* --------------------------------------------Metodología-------------------------------------------------------- */
 
 .Metodologia {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     /* background: #1a66ff; */
     color: #fff;
 }
@@ -184,7 +196,7 @@ header .barras {
 /* -----------------------------------Evaluacion------------------------------------------------ */
 
 .Evaluacion {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 60px;
     padding-left: 10px;
     /* background: #0B610B; */
@@ -195,7 +207,7 @@ header .barras {
 /* -------------------------------Bibliografia------------------------------------------- */
 
 .Bibliografia {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 60px;
     padding-left: 10px;
     color: #FFFFFF
@@ -209,10 +221,10 @@ header .barras {
 /*-------------------------------Contacto--------------------------------------------*/
 
 .Contacto {
-    padding-top: 10%;
+    padding-top: 20px;
     padding-bottom: 80px;
     padding-left: 10px;
-    /* background: rgb(38, 38, 38, 0.8); */
+    /* background-color: #00FF00; */
     color: #fff;
     font-size: 20px;
 }
@@ -221,7 +233,7 @@ header .barras {
 /* --------------------------------------Noticias------------------------------------------------ */
 
 .Noticias {
-    padding-top: 16.5%;
+    padding-top: 20px;
     padding-bottom: 80px;
     padding-left: 10px;
     color: #fff;
@@ -240,20 +252,22 @@ header .barras {
     height: 200px;
     margin-top: 20px;
     background-image: url(../img-video/triangulos-azules.png);
+    cursor: pointer;
 }
 
 .Noticias .cuadro2 {
     height: 200px;
     margin-top: 20px;
     background-image: url(../img-video/triangulos-grises.jpg);
+    cursor: pointer;
 }
 
 
 /* ------------------------------------Historial--------------------------------------------------- */
 
 .Historial {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 140px;
+    padding-bottom: 200px;
     padding-left: 10px;
     color: #fff;
     text-align: center;
@@ -324,9 +338,9 @@ header .barras {
 }
 
 @media(max-width: 800px) {
-    .header-content {
+    /* .header-content {
         padding-top: 20px;
-    }
+    } */
     header .barras {
         position: fixed;
         top: 0;
@@ -335,7 +349,7 @@ header .barras {
         font-size: 22px;
     }
     .titulo h1,
-    .titulo p {
+    .titulo h2 {
         padding: 10px;
         font-size: 28px;
     }
@@ -355,7 +369,7 @@ header .barras {
         width: 25%;
     }
     .titulo h1,
-    .titulo p {
+    .titulo h2 {
         font-size: 18px;
     }
     .video {
@@ -375,7 +389,7 @@ header .barras {
         width: 35%;
     }
     .titulo h1,
-    .titulo p {
+    .titulo h2 {
         font-size: 16px;
     }
     .video {
@@ -390,13 +404,16 @@ header .barras {
 
 @media(max-width: 400px) {
     .seccion .columna {
-        padding-top: 8%;
+        padding-top: 30px;
+    }
+    .video {
+        margin-top: 0px;
     }
     .video video {
         width: 280px;
     }
     .titulo h1,
-    .titulo p {
+    .titulo h2 {
         font-size: 14px;
         padding: 2px;
     }
@@ -439,7 +456,8 @@ header .barras {
         padding-left: 0;
     }
     .Metodologia {
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 120px;
     }
     .Evaluacion {
         padding-top: 20px;
@@ -455,6 +473,7 @@ header .barras {
     }
     .Contacto {
         padding-top: 12%;
+        padding-bottom: 70px;
     }
 }
 
@@ -462,6 +481,12 @@ header .barras {
     nav ul li a {
         height: 38px;
         line-height: 15px;
+    }
+}
+
+@media(max-width: 353px) {
+    .seccion .columna {
+        padding-top: 5px;
     }
 }
 
