@@ -115,7 +115,7 @@ $(document).ready(function() {
     $('#btn-historial').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: Historial
+            scrollTop: Historial + 1
         }, 1000);
 
     });
