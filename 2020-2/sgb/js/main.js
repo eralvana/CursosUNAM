@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('nav').toggleClass('active');
     });
     if ($(window).width() > 900) {
-        var a = 89;
+        var a = 79;
     }
     if ($(window).width() < 400) {
         var a = 28;
