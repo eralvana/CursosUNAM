@@ -264,8 +264,6 @@ header .barras {
 
 .Noticias .cuadro1:hover {
     background-size: 98%;
-    opacity: .8;
-    /* transition: 0.6s; */
 }
 
 .Noticias .cuadro2 {
