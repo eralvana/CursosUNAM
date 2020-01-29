@@ -89,7 +89,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -107,10 +107,17 @@ nav ul li a {
     text-align: center;
 }
 
-nav ul li a:hover,
 nav ul li.active {
     color: #fff;
     background: #1269F7;
+    /* background: #062768; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background: #8A0808;
+    /* background: #1269F7; */
     text-decoration: none;
 }
 
