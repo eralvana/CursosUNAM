@@ -1,142 +1,133 @@
 /* --------------------------General----------------------------------------- */
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-
-/* body {
-        position: relative;
-    } */
 
 body main {
-    background-image: url(../img-video/dark.png);
-    padding: 0;
-    margin: 0;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
 }
 
-.seccion .columna {
-    padding-top: 52px;
+.seccion,
+.columna {
+  padding-top: 40px;
+  padding-bottom:40px;
 }
 
 
 /* ---------------------------------Header----------------------------------- */
-
 header {
-    margin-top: 5%;
-    padding-top: 20px;
-    padding-bottom: 5%;
-    /* height: 150%; */
+  background-image: url(../img-video/dark.png);
+  margin-top: 5%;
+  padding-top: 20px;
+  padding-bottom: 5%;
+  color: #FFFFFF;
 }
 
 .titulo {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background: #062768;
-    z-index: 2;
-    padding: 10px;
-    text-align: center;
-    color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #062768;
+  z-index: 2;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .titulo h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .video {
-    position: relative;
-    text-align: center;
-    margin-top: 154px;
-    /* padding-top: 15%; */
-    padding-bottom: 30px;
-    right: 0;
+  position: relative;
+  text-align: center;
+  margin-top: 154px;
+  padding-bottom: 30px;
+  right: 0;
 }
 
-.video .informacion {
-    padding-top: 55px;
+.video,
+.informacion {
+  padding-top: 55px;
 }
 
 .video p {
-    padding: 5px;
-    font-size: 24px;
+  padding: 5px;
+  font-size: 24px;
 }
 
 .video video {
-    width: 450px;
+  width: 450px;
 }
 
 
 /* -----------------------------------------menu-------------------------------------------------- */
-
 header .contenedor {
-    position: fixed;
-    /* top: 19%; */
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background: #062768;
-    z-index: 2;
-    align-items: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #062768;
+  z-index: 2;
+  align-items: center;
 }
 
 header nav {
-    background: #333;
+  background: #303030;
 }
 
 header nav ul {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li a {
-    height: 52px;
-    line-height: 40px;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+  height: 52px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 nav ul li.active {
-    color: #fff;
-    background: #1269F7;
-    /* background: #062768; */
-    text-decoration: none;
+  color: #FFFFFF;
+  background: #8A0808;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #fff;
-    background: #8A0808;
-    /* background: #1269F7; */
-    text-decoration: none;
+  color: #FFFFFF;
+  background: #1269F7;
+  text-decoration: none;
 }
 
 header .barras {
-    color: #fff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    line-height: 10px;
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-    z-index: 3;
-    padding: 18px;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  line-height: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 3;
+  padding: 18px;
 }
 
 
 /* ------------------------------Descripción------------------------------- */
-
 .Descripcion,
 .Temario,
 .Evaluacion,
@@ -145,379 +136,408 @@ header .barras {
 .Contacto,
 .Noticias,
 .Historial {
-    border-top: red solid 4px;
+  border-top: #000000 solid 4px;
 }
 
 .Descripcion {
-    /* margin-top: 100px; */
-    /* padding-top: 60px; */
-    padding-bottom: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    transition: 2s;
-    /* background-color: #00FF00; */
+  background-image: url(../img-video/escher-lagartijas.jpg);
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF;
+  transition: 2s;
 }
 
 .Descripcion p {
-    font-size: 24px;
-    margin: 30px;
-    padding: 20px;
+  font-size: 24px;
+  margin: 30px;
+  padding: 20px;
 }
 
 .Descripcion .img {
-    padding: 140px 0 0 0;
+  padding: 140px 0 0 0;
 }
 
 
 /* -----------------------------------------------Temario-------------------------------------------------- */
 
 .Temario {
-    /* padding-top: 60px; */
-    padding-bottom: 60px;
-    color: #FFFFFF;
+  background-image: url(../img-video/tetris.png);
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000;
 }
 
 .Temario .lista {
-    padding-left: 100px;
-}
-
-.Temario .img {
-    text-align: center;
-}
-
-.Temario .img .reflexion {
-    padding-left: 30px;
+  padding-left: 150px;
+  font-size: 16pt;
 }
 
 
 /* --------------------------------------------Metodología-------------------------------------------------------- */
 
 .Metodologia {
-    padding-top: 20px;
-    padding-bottom: 60px;
-    /* background: #1a66ff; */
-    color: #fff;
+  background-image: url(../img-video/tilebluered.png);
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
+}
+
+.Metodologia p {
+  font-size: 20px;
+}
+
+.Metodologia a{
+  text-decoration: none;
+  color: #FFFF00;
+}
+
+.Metodologia a:hover{
+  text-decoration: none;
+  color: #00FF00;
 }
 
 
 /* -----------------------------------Evaluacion------------------------------------------------ */
 
 .Evaluacion {
-    padding-top: 20px;
-    padding-bottom: 60px;
-    padding-left: 10px;
-    /* background: #0B610B; */
-    color: #fff;
+  background-image: url(../img-video/dark.png);
+  color: #FFFFFF;
+  font-size: 16pt;
+  text-align: justify;
+}
+
+.Evaluacion ul{
+  padding: 20px;
+}
+
+.Evaluacion li{
+  padding: 10px;
+}
+
+.Evaluacion b{
+  color: #FF0000;
 }
 
 
 /* -------------------------------Bibliografia------------------------------------------- */
 
 .Bibliografia {
-    padding-top: 20px;
-    padding-bottom: 60px;
-    padding-left: 10px;
-    color: #FFFFFF
+  background-image: url(../img-video/puzzle.png);
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000,  0px 0px 10px #000000;
+  font-size: 18pt;
+  text-align: justify;
+}
+
+.Bibliografia p{
+  padding: 50px;
 }
 
 .Bibliografia .libro {
-    text-align: center;
+  text-align: center;
 }
 
 
 /*-------------------------------Contacto--------------------------------------------*/
 
 .Contacto {
-    padding-top: 20px;
-    padding-bottom: 80px;
-    padding-left: 10px;
-    /* background-color: #00FF00; */
-    color: #fff;
-    font-size: 20px;
+  background-image: url(../img-video/tilebluered.png);
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
+  font-size: 20px;
+}
+
+.Contacto p{
+  margin: 30px;
+}
+
+.Contacto a{
+  text-decoration: none;
+  color: #FFFF00;
+}
+
+.Contacto a:hover{
+  text-decoration: none;
+  color: #00FF00;
 }
 
 
 /* --------------------------------------Noticias------------------------------------------------ */
-
 .Noticias {
-    padding-top: 20px;
-    padding-bottom: 80px;
-    padding-left: 10px;
-    color: #fff;
-    text-align: center;
+  background-image: url(../img-video/rombos.png);
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
+  text-align: center;
+}
+
+.Noticias .titulocuadro{
+  color: #FFFF00;
 }
 
 .Noticias .cuadro1,
 .Noticias .cuadro2 {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #000000 solid 2px;
 }
 
-.Noticias .cuadro1 {
-    height: 200px;
-    margin-top: 20px;
-    background-image: url(../img-video/triangulos-azules.png);
-    cursor: pointer;
+.Noticias .cuadro1,
+.Noticias .cuadro2{
+  height: 200px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
-.Noticias .cuadro1:hover {
-    background-size: 98%;
+.Noticias .cuadro1:hover,
+.Noticias .cuadro2:hover{
+  background-size: 150%;
+  border: #FFFF00 solid 4px;
+}
+
+.Noticias .cuadro1{
+  background-image: url(../img-video/triangulos-azules.png);
+  cursor: pointer;
 }
 
 .Noticias .cuadro2 {
-    height: 200px;
-    margin-top: 20px;
-    background-image: url(../img-video/triangulos-grises.jpg);
-    cursor: pointer;
+  background-image: url(../img-video/triangulos-grises.jpg);
+  cursor: pointer;
 }
 
 
 /* ------------------------------------Historial--------------------------------------------------- */
-
 .Historial {
-    padding-top: 180px;
-    padding-bottom: 220px;
-    padding-left: 10px;
-    color: #fff;
-    text-align: center;
+  background-image: url(../img-video/dark.png);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.Historial a:hover{
+  text-decoration: none;
+  color: #0000FF;
 }
 
 
 /* ---------------------------------Pie-página------------------------------------------ */
 
 .Pie-pagina {
-    background: #062768;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background: #062768;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
 }
 
 
 /* -----------------------------Media----------------------------------------- */
-
 @media(max-width: 991px) {
-    /* header .contenedor {
-            padding: 0 20px;
-        } */
-    body main {
-        padding-right: 0;
-    }
-    header {
-        width: 100%;
-    }
-    header .contenedor {
-        padding-top: 10px;
-    }
-    .video {
-        right: 0%;
-    }
-    header .barras {
-        display: block;
-        z-index: 3;
-    }
-    header nav {
-        position: absolute;
-        width: 20%;
-        background: #333;
-        right: -100%;
-        transition: 0.5s;
-    }
-    header nav.active {
-        right: 0;
-    }
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a {
-        border-bottom: 1px solid rgba(0, 0, 0, .3);
-    }
-    .video video {
-        width: 300px;
-    }
-    .Pie-pagina {
-        padding-right: 0;
-    }
+  body main {
+    padding-right: 0;
+  }
+  header {
+    width: 100%;
+  }
+  header .contenedor {
+    padding-top: 10px;
+  }
+  .video {
+    right: 0%;
+  }
+  header .barras {
+    display: block;
+    z-index: 3;
+  }
+  header nav {
+    position: absolute;
+    width: 20%;
+    background: #333;
+    right: -100%;
+    transition: 0.5s;
+  }
+  header nav.active {
+    right: 0;
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+  .video video {
+    width: 300px;
+  }
+  .Pie-pagina {
+    padding-right: 0;
+  }
 }
 
 @media(max-width: 900px) {
-    .video video {
-        width: 350px;
-    }
+  .video video {
+    width: 350px;
+  }
 }
 
 @media(max-width: 800px) {
-    /* .header-content {
-        padding-top: 20px;
-    } */
-    header .barras {
-        position: fixed;
-        top: 0;
-        padding: 16px 10px 15px 15px;
-        line-height: 10px;
-        font-size: 22px;
-    }
-    .titulo h1,
-    .titulo h2 {
-        padding: 10px;
-        font-size: 28px;
-    }
-    .video video {
-        width: 260px;
-    }
-    .video p {
-        font-size: 20px;
-    }
-    .video .informacion {
-        padding-top: 0px;
-    }
+  header .barras {
+    position: fixed;
+    top: 0;
+    padding: 16px 10px 15px 15px;
+    line-height: 10px;
+    font-size: 22px;
+  }
+  .titulo h1,
+  .titulo h2 {
+    padding: 10px;
+    font-size: 28px;
+  }
+  .video video {
+    width: 260px;
+  }
+  .video p {
+    font-size: 20px;
+  }
+  .video .informacion {
+    padding-top: 0px;
+  }
 }
 
 @media(max-width:700px) {
-    .titulo h2 {
-        font-size: 23px;
-    }
-    .Descripcion .img img {
-        width: 200px;
-    }
-    .Temario .img img {
-        width: 200px;
-    }
-    nav ul li a {
-        height: 46px;
-        line-height: 40px;
-    }
+  .titulo h2 {
+    font-size: 23px;
+  }
+  .Descripcion .img img {
+    width: 200px;
+  }
+  .Temario .img img {
+    width: 200px;
+  }
+  nav ul li a {
+    height: 46px;
+    line-height: 40px;
+  }
 }
 
 @media(max-width: 600px) {
-    header nav {
-        width: 25%;
-    }
-    .titulo h1,
-    .titulo h2 {
-        font-size: 18px;
-    }
-    .Descripcion .img img {
-        width: 160px;
-    }
-    .Temario .img img {
-        width: 160px;
-    }
+  header nav {
+    width: 25%;
+  }
+  .titulo h1,
+  .titulo h2 {
+    font-size: 18px;
+  }
+  .Descripcion .img img {
+    width: 160px;
+  }
+  .Temario .img img {
+    width: 160px;
+  }
 }
-
 @media(max-width: 500px) {
-    header nav {
-        width: 35%;
-    }
-    .titulo h1 {
-        font-size: 16px;
-    }
-    .titulo h2 {
-        font-size: 15px;
-    }
-    .video {
-        position: relative;
-        padding-bottom: 10px;
-    }
-    nav ul li a {
-        height: 43px;
-        line-height: 40px;
-    }
+  header nav {
+    width: 35%;
+  }
+  .titulo h1 {
+    font-size: 16px;
+  }
+  .titulo h2 {
+    font-size: 15px;
+  }
+  .video {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  nav ul li a {
+    height: 43px;
+    line-height: 40px;
+  }
 }
 
 @media(max-width: 400px) {
-    .seccion .columna {
-        padding-top: 30px;
-    }
-    .video {
-        margin-top: 80px;
-    }
-    .video video {
-        width: 280px;
-    }
-    .titulo h1,
-    .titulo h2 {
-        font-size: 14px;
-        padding: 2px;
-    }
-    header .barras {
-        position: fixed;
-        top: 0;
-        padding: 16px 5px 10px 10px;
-        line-height: 0;
-        font-size: 20px;
-    }
-    nav ul li a {
-        height: 40px;
-        line-height: 30px;
-    }
-    .Descripcion {
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-    .Descripcion p {
-        font-size: 16px;
-        margin: 2px;
-        padding: 10px;
-    }
-    .Descripcion .img {
-        padding: 10px 0 0 0;
-    }
-    .Descripcion .img img {
-        width: 240px;
-    }
-    .Temario {
-        padding-top: 20px;
-    }
-    .Temario .img {
-        text-align: center;
-    }
-    .Temario .img img {
-        width: 250px;
-    }
-    .Temario .img .reflexion {
-        padding-left: 0;
-    }
-    .Metodologia {
-        padding-top: 40px;
-        padding-bottom: 120px;
-    }
-    .Evaluacion {
-        padding-top: 20px;
-    }
-    .Bibliografia {
-        padding-top: 20px;
-    }
-    .Bibliografia .libro {
-        text-align: center;
-    }
-    .Noticias {
-        padding-top: 12%;
-    }
-    .Contacto {
-        padding-top: 12%;
-        padding-bottom: 70px;
-    }
+  .seccion .columna {
+    padding-top: 30px;
+  }
+  .video {
+    margin-top: 80px;
+  }
+  .video video {
+    width: 280px;
+  }
+  .titulo h1,
+  .titulo h2 {
+    font-size: 14px;
+    padding: 2px;
+  }
+  header .barras {
+    position: fixed;
+    top: 0;
+    padding: 16px 5px 10px 10px;
+    line-height: 0;
+    font-size: 20px;
+  }
+  nav ul li a {
+    height: 40px;
+    line-height: 30px;
+  }
+  .Descripcion {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .Descripcion p {
+    font-size: 16px;
+    margin: 2px;
+    padding: 10px;
+  }
+  .Descripcion .img {
+    padding: 10px 0 0 0;
+  }
+  .Descripcion .img img {
+    width: 240px;
+  }
+  .Temario {
+    padding-top: 20px;
+  }
+  .Temario .img {
+    text-align: center;
+  }
+  .Temario .img img {
+    width: 250px;
+  }
+  .Temario .img .reflexion {
+    padding-left: 0;
+  }
+  .Metodologia {
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+  .Evaluacion {
+    padding-top: 20px;
+  }
+  .Bibliografia {
+    padding-top: 20px;
+  }
+  .Bibliografia .libro {
+    text-align: center;
+  }
+  .Noticias {
+    padding-top: 12%;
+  }
+  .Contacto {
+    padding-top: 12%;
+    padding-bottom: 70px;
+  }
 }
 
 @media(max-width: 362px) {
-    nav ul li a {
-        height: 38px;
-        line-height: 15px;
-    }
+  nav ul li a {
+    height: 38px;
+    line-height: 15px;
+  }
 }
 
 @media(max-width: 353px) {
-    .seccion .columna {
-        padding-top: 5px;
-    }
+  .seccion .columna {
+    padding-top: 5px;
+  }
 }
-
-
-/* @media(max-width: 338px) {
-    header .contenedor {
-        top: 17.3%;
-    }
-} */
