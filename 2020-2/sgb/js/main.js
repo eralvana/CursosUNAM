@@ -155,4 +155,10 @@ $(document).ready(function() {
         }, 1000);
 
     });
+    $('#btn-noticias3').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: Noticias + 1
+        }, 1000);
+    });
 });
