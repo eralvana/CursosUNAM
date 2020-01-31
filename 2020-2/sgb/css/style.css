@@ -167,7 +167,7 @@ header .barras {
 }
 
 .Temario .lista {
-  padding-left: 150px;
+  padding-left: 100px;
   font-size: 16pt;
 }
 
@@ -268,8 +268,14 @@ header .barras {
   text-align: center;
 }
 
-.Noticias .titulocuadro{
+.Noticias .titulocuadro1{
   color: #FFFF00;
+  margin: 10px;
+}
+
+.Noticias .titulocuadro2{
+  color: #FFFFFF;
+  margin: 10px;
 }
 
 .Noticias .cuadro1,
@@ -289,6 +295,11 @@ header .barras {
 .Noticias .cuadro2:hover{
   background-size: 150%;
   border: #FFFF00 solid 4px;
+}
+
+.Noticias .cuadro2:hover .titulocuadro2,
+.Noticias .cuadro1:hover .titulocuadro2{
+  color: #FFFF00;
 }
 
 .Noticias .cuadro1{
