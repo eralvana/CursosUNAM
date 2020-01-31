@@ -270,12 +270,10 @@ header .barras {
 
 .Noticias .titulocuadro1{
   color: #FFFF00;
-  margin: 10px;
 }
 
 .Noticias .titulocuadro2{
   color: #FFFFFF;
-  margin: 10px;
 }
 
 .Noticias .cuadro1,
@@ -316,7 +314,7 @@ header .barras {
 /* ------------------------------------Historial--------------------------------------------------- */
 .Historial {
   background-image: url(../img-video/dark.png);
-  color: #FFFFFF;
+  color: #FFFF00;
   text-align: center;
 }
 
