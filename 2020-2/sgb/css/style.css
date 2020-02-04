@@ -171,8 +171,8 @@ header .barras {
 }
 
 .Temario .lista {
-    padding: 50px;
-    font-size: 12pt;
+  font-size: 24px;
+  padding: 20px;
 }
 
 
@@ -185,7 +185,6 @@ header .barras {
 }
 
 .Metodologia p {
-    font-size: 20px;
     font-size: 24px;
     margin: 30px;
     padding: 20px;
@@ -234,17 +233,18 @@ header .barras {
     text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
     font-size: 18pt;
     text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .Bibliografia p {
-  font-size: 24px;
   margin: 30px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .Bibliografia .libro {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 150px;
 }
 
 .Bibliografia .libro img {
@@ -263,6 +263,7 @@ header .barras {
 .Contacto p {
     margin: 30px;
     padding: 20px;
+    font-size: 24px;
 }
 
 .Contacto a {
@@ -457,6 +458,12 @@ header .barras {
         height: 46px;
         line-height: 40px;
     }
+    .Bibliografia p {
+      padding-bottom: 0px;
+    }
+    .Bibliografia .libro {
+      padding-top: 0px;
+    }
 }
 
 @media(max-width: 600px) {
@@ -472,6 +479,8 @@ header .barras {
     }
     .Temario .lista {
         padding-left: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     /* .Temario .img img {
         width: 160px;
