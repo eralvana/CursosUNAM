@@ -22,7 +22,9 @@ body main {
 /* ---------------------------------Header----------------------------------- */
 
 header {
-    background-image: url(../img-video/dark.png);
+    /* background-image: url(../img-video/dark.png); */
+    /* background: #0275d8; */
+    background: #1acb9c;
     margin-top: 5%;
     padding-top: 20px;
     padding-bottom: 5%;
@@ -34,7 +36,8 @@ header {
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    background: #062768;
+    /* background: #062768; */
+    background: #1acb9c;
     z-index: 2;
     padding: 10px;
     text-align: center;
@@ -46,6 +49,7 @@ header {
 }
 
 .video {
+    /* background: #0275d8; */
     position: relative;
     text-align: center;
     margin-top: 154px;
@@ -75,13 +79,14 @@ header .contenedor {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    background: #062768;
+    /* background: #062768; */
     z-index: 2;
     align-items: center;
 }
 
 header nav {
-    background: #303030;
+    /* background: #303030; */
+    background: #212f3f;
 }
 
 header nav ul {
@@ -144,7 +149,8 @@ header .barras {
 }
 
 .Descripcion {
-    background-image: url(../img-video/escher-lagartijas.jpg);
+    /* background-image: url(../img-video/escher-lagartijas.jpg); */
+    /* background: #0275d8; */
     text-align: center;
     color: #000000;
     text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF, 0px 0px 10px #FFFFFF;
@@ -350,7 +356,8 @@ header .barras {
 /* --------------------------------------Pie-página------------------------------------------------- */
 
 .Pie-pagina {
-    background: #062768;
+    /* background: #062768; */
+    background: #212f3f;
     color: #FFFFFF;
     padding: 10px;
     text-align: center;
