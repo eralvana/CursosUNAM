@@ -215,10 +215,11 @@ header .barras {
 .cuadro2:hover {
   background-size: 150%;
   border: #FFFF00 solid 4px;
+  box-shadow: 10px 10px 10px #000000;
 }
 
-.cuadro2:hover .titulocuadro2,
-.cuadro1:hover .titulocuadro2 {
+.cuadro2:hover .titulocuadro,
+.cuadro1:hover .titulocuadro {
   color: #FFFF00;
 }
 
