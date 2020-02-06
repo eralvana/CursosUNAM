@@ -20,7 +20,7 @@ body main {
 header {
   background: #1ABC9C;
   margin-top: 5%;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 5%;
   color: #FFFFFF;
 }
@@ -52,6 +52,7 @@ header {
 .video,
 .informacion {
   padding-top: 55px;
+  text-shadow: 0px 0px 10px #000000;
 }
 
 .video p {
@@ -147,10 +148,14 @@ header .barras {
   padding: 20px;
 }
 
-.seccion1 .img {
-  padding: 140px 0 0 0;
+.seccion1 .img{
+  padding: 100px;
 }
 
+.seccion1 .libro{
+  width: 50%;
+  padding-top: 100px;
+}
 
 /* Seccion2 */
 .seccion2 {
@@ -162,6 +167,14 @@ header .barras {
 .seccion2 .lista {
   font-size: 20px;
   padding: 20px;
+}
+
+.seccion2 ul {
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .seccion2 b {
@@ -250,20 +263,36 @@ header .barras {
 }
 
 /* Media */
-@media(max-width: 991px) {
+@media(max-width:1200px){
+  .seccion,
+  .columna {
+    padding: 30px;
+    margin: 0px;
+  }
+  .seccion1 .libro img {
+    padding-top: 30px;
+    width: 250px;
+  }
+}
+
+@media(max-width: 990px) {
   body main {
-    padding-right: 0;
+    padding: 0px;
   }
   header {
     width: 100%;
   }
   header .contenedor {
-    padding-top: 10px;
+    padding: 10px;
   }
   .video {
-    right: 0%;
+    margin-top: 40px;
+  }
+  .video img {
+    width: 300px;
   }
   header .barras {
+    margin-top: 10px;
     display: block;
     z-index: 3;
   }
@@ -273,6 +302,7 @@ header .barras {
     background: #2C3E50;
     right: -100%;
     transition: 0.5s;
+    border: 2px solid #000000;
   }
   header nav.active {
     right: 0;
@@ -287,8 +317,19 @@ header .barras {
   .video video {
     width: 300px;
   }
+  .video .informacion {
+    padding-top: 0px;
+  }
+  .seccion1 p{
+    margin: 10px;
+    padding: 10px;
+  }
+  .seccion1 .libro img {
+    padding-top: 10px;
+    width: 250px;
+  }
   .Pie-pagina {
-    padding-right: 0;
+    padding: 30px;
   }
 }
 
@@ -296,11 +337,16 @@ header .barras {
   .video video {
     width: 350px;
   }
-  .seccion1 {
+  .seccion1,
+  .seccion2,
+  .seccion3 {
     font-size: 16pt;
   }
+  .seccion1 .img {
+    padding-left: 30px;
+  }
   .seccion1 .libro img {
-    width: 200px;
+    width: 280px;
   }
 }
 
@@ -312,10 +358,13 @@ header .barras {
     line-height: 10px;
     font-size: 22px;
   }
-  .titulo h1,
+  .titulo h1 {
+    padding: 5px;
+    font-size: 24px;
+  }
   .titulo h2 {
-    padding: 10px;
-    font-size: 28px;
+    padding: 5px;
+    font-size: 16px;
   }
   .video video {
     width: 260px;
@@ -323,36 +372,54 @@ header .barras {
   .video p {
     font-size: 20px;
   }
-  .video .informacion {
-    padding-top: 0px;
-  }
   .seccion1 .libro {
-    padding-top: 20px;
+    padding-top: 120px;
   }
   .seccion1 .libro img {
-    width: 180px;
+    width: 220px;
+  }
+  .seccion2 ul {
+    padding: 30px;
   }
 }
 
 @media(max-width:700px) {
-  .titulo h2 {
-    font-size: 23px;
+  .seccion,
+  .columna {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-  .seccion1 .img img {
-    width: 200px;
-  }
-  .seccion2 .img img {
-    width: 200px;
+  .video img {
+    padding-top: 20px;
+    width: 250px;
   }
   nav ul li a {
-    height: 46px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 30px;
   }
   .seccion1 p {
     padding-bottom: 0px;
   }
+  .seccion1 img {
+    padding-top: 50px;
+    width: 180px;
+  }
+  .seccion1 .bibliografia {
+    margin: 0px;
+    padding: 0px;
+  }
+  .seccion1 .libro img{
+    width: 300px;
+  }
   .seccion1 .libro {
     padding-top: 0px;
+  }
+  .seccion2 .lista {
+    margin: 0px;
+  }
+  .seccion2 a{
+    font-size: 20px;
   }
 }
 
@@ -360,9 +427,8 @@ header .barras {
   header nav {
     width: 25%;
   }
-  .titulo h1,
-  .titulo h2 {
-    font-size: 18px;
+  .seccion1 .img {
+    padding-top: 150px;
   }
   .seccion1 .img img {
     width: 160px;
@@ -372,7 +438,6 @@ header .barras {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-
   .seccion1 .cuadro1,
   .seccion1 .cuadro2 {
     margin: 4px 0;
@@ -383,19 +448,30 @@ header .barras {
   header nav {
     width: 35%;
   }
-  .titulo h1 {
-    font-size: 16px;
-  }
-  .titulo h2 {
-    font-size: 15px;
+  .contenedor-video{
+    padding: 10px;
   }
   .video {
     position: relative;
     padding-bottom: 10px;
   }
+  .video img {
+    padding-top: 0px;
+    width: 300px;
+  }
   nav ul li a {
     height: 43px;
     line-height: 40px;
+  }
+  .seccion1 .img {
+    padding: 10px;
+  }
+  .seccion2 ul{
+    text-align: justify;
+    padding-left: 50px;
+  }
+  .seccion2 a{
+    font-size: 18px;
   }
 }
 
@@ -409,11 +485,6 @@ header .barras {
   .video video {
     width: 280px;
   }
-  .titulo h1,
-  .titulo h2 {
-    font-size: 14px;
-    padding: 2px;
-  }
   header .barras {
     position: fixed;
     top: 0;
@@ -425,11 +496,15 @@ header .barras {
     height: 40px;
     line-height: 30px;
   }
-  .seccion1 {
+  .seccion1,
+  .seccion2,
+  .seccion3 {
     padding-top: 20px;
     padding-bottom: 10px;
   }
-  .seccion1 p {
+  .seccion1 p,
+  .seccion2 p,
+  .seccion3 p {
     font-size: 16px;
     margin: 2px;
     padding: 10px;
@@ -440,8 +515,11 @@ header .barras {
   .seccion1 .img img {
     width: 240px;
   }
-  .seccion2 {
-    padding-top: 20px;
+  .seccion2 .lista {
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .seccion2 .img {
     text-align: center;
@@ -449,22 +527,23 @@ header .barras {
   .seccion2 .img img {
     width: 250px;
   }
-  .seccion3 {
-    padding-top: 40px;
-    padding-bottom: 120px;
-  }
-  .seccion2 {
-    padding-top: 20px;
-  }
   .seccion2 ul {
-    font-size: 20px;
-    margin: 10px;
+    font-size: 16px;
+    margin: 0px;
   }
   .seccion2 li {
     padding: 5px;
   }
   .seccion1 .libro {
     text-align: center;
+  }
+  .cuadro1 .titulocuadro,
+  .cuadro2 .titulocuadro{
+    font-size: 18px;
+  }
+  .cuadro1,
+  .cuadro2 {
+    font-size: 18px;
   }
 }
 
@@ -473,7 +552,7 @@ header .barras {
     height: 38px;
     line-height: 15px;
   }
-} 
+}
 
 @media(max-width: 353px) {
   .seccion .columna {
