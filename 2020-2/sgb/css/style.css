@@ -473,7 +473,7 @@ header .barras {
     height: 38px;
     line-height: 15px;
   }
-}
+} 
 
 @media(max-width: 353px) {
   .seccion .columna {
