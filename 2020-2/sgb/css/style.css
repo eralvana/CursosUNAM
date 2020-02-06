@@ -222,6 +222,7 @@ header .barras {
 
 .cuadro1:hover,
 .cuadro2:hover {
+<<<<<<< HEAD
     background-size: 150%;
     border: #FFFF00 solid 4px;
 }
@@ -229,6 +230,16 @@ header .barras {
 .cuadro2:hover .titulocuadro2,
 .cuadro1:hover .titulocuadro2 {
     color: #FFFF00;
+=======
+  background-size: 150%;
+  border: #FFFF00 solid 4px;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.cuadro2:hover .titulocuadro,
+.cuadro1:hover .titulocuadro {
+  color: #FFFF00;
+>>>>>>> ecfbf50b167c9c2172a3abea7a6661ddb7577142
 }
 
 .cuadro1 {
@@ -241,6 +252,14 @@ header .barras {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+.marco{
+  border: 4px solid #000000;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #000000;
+}
+>>>>>>> ecfbf50b167c9c2172a3abea7a6661ddb7577142
 
 /* Pie-página */
 
