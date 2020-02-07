@@ -15,9 +15,6 @@ $(document).ready(function() {
   if ($(window).width() <= 400) {
       var a = 120;
   }
-  if ($(window).width() < 353) {
-      var a = 120;
-  }
 
   var Header = $('#Header').offset().top - 50,
       Noticias = $('#Noticias').offset().top - a,

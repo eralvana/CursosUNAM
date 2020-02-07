@@ -292,7 +292,7 @@ header .barras {
     width: 300px;
   }
   header .barras {
-    margin-top: 10px;
+    margin-top: 20px;
     display: block;
     z-index: 3;
   }
@@ -354,7 +354,6 @@ header .barras {
   header .barras {
     position: fixed;
     top: 0;
-    padding: 16px 10px 15px 15px;
     line-height: 10px;
     font-size: 22px;
   }
@@ -461,7 +460,7 @@ header .barras {
   }
   nav ul li a {
     height: 43px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .seccion1 .img {
     padding: 10px;
@@ -488,13 +487,12 @@ header .barras {
   header .barras {
     position: fixed;
     top: 0;
-    padding: 16px 5px 10px 10px;
     line-height: 0;
     font-size: 20px;
   }
   nav ul li a {
     height: 40px;
-    line-height: 30px;
+    line-height: 20px;
   }
   .seccion1,
   .seccion2,

@@ -1,40 +1,17 @@
 // --------------efecto menu------------
 $(document).ready(function() {
-    // $('ul li').click(function() {
-    //     $(this).siblings().removeClass('active');
-    //     $(this).toggleClass('active');
-    // });
-    $('.barras').click(function() {
-        $('nav').toggleClass('active');
-    });
-
-    if ($(window).width() > 900) {
-        var a = 76;
-    }
-    if ($(window).width() <= 900) {
-        var a = 110;
-    }
-    if ($(window).width() <= 800) {
-        var a = 140;
-    }
-    if ($(window).width() <= 700) {
-        var a = 135;
-    }
-    if ($(window).width() <= 600) {
-        var a = 118;
-    }
-    if ($(window).width() <= 576) {
-        var a = 74;
-    }
-    if ($(window).width() <= 500) {
-        var a = 70;
-    }
-    if ($(window).width() < 400) {
-        var a = 28;
-    }
-    if ($(window).width() < 353) {
-        var a = 45;
-    }
+  $('.barras').click(function() {
+    $('nav').toggleClass('active');
+  });
+  if ($(window).width() > 990) {
+    var a = 115;
+  }
+  if ($(window).width() <= 990) {
+      var a = 75;
+  }
+  if ($(window).width() <= 800) {
+      var a = 65;
+  }
 
     var Header = $('#Header').offset().top - 70,
         Noticias = $('#Noticias').offset().top - a,
