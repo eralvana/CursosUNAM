@@ -1,53 +1,36 @@
 // --------------efecto menu------------
 $(document).ready(function() {
-    // $('ul li').click(function() {
-    //     $(this).siblings().removeClass('active');
-    //     $(this).toggleClass('active');
-    // });
-    $('.barras').click(function() {
-        $('nav').toggleClass('active');
-    });
+  $('.barras').click(function() {
+    $('nav').toggleClass('active');
+  });
+  if ($(window).width() > 990) {
+    var a = 76;
+  }
+  if ($(window).width() <= 990) {
+      var a = 110;
+  }
+  if ($(window).width() <= 800) {
+      var a = 100;
+  }
+  if ($(window).width() <= 400) {
+      var a = 120;
+  }
+  if ($(window).width() < 353) {
+      var a = 120;
+  }
 
-    if ($(window).width() > 900) {
-        var a = 76;
-    }
-    if ($(window).width() <= 900) {
-        var a = 110;
-    }
-    if ($(window).width() <= 800) {
-        var a = 140;
-    }
-    if ($(window).width() <= 700) {
-        var a = 135;
-    }
-    if ($(window).width() <= 600) {
-        var a = 118;
-    }
-    if ($(window).width() <= 576) {
-        var a = 74;
-    }
-    if ($(window).width() <= 500) {
-        var a = 70;
-    }
-    if ($(window).width() < 400) {
-        var a = 28;
-    }
-    if ($(window).width() < 353) {
-        var a = 45;
-    }
+  var Header = $('#Header').offset().top - 50,
+      Noticias = $('#Noticias').offset().top - a,
+      Descripcion = $('#Descripcion').offset().top - a,
+      Historial = $('#Historial').offset().top - a,
+      Temario = $('#Temario').offset().top - a,
+      Metodologia = $('#Metodologia').offset().top - a,
+      Evaluacion = $('#Evaluacion').offset().top - a,
+      Bibliografia = $('#Bibliografia').offset().top - a,
+      Contacto = $('#Contacto').offset().top - a;
 
-    var Header = $('#Header').offset().top - 70,
-        Noticias = $('#Noticias').offset().top - a,
-        Descripcion = $('#Descripcion').offset().top - a,
-        Historial = $('#Historial').offset().top - a,
-        Temario = $('#Temario').offset().top - a,
-        Metodologia = $('#Metodologia').offset().top - a,
-        Evaluacion = $('#Evaluacion').offset().top - a,
-        Bibliografia = $('#Bibliografia').offset().top - a,
-        Contacto = $('#Contacto').offset().top - a;
 
-    // Cumpleaños = $('#Cumple')
-    $(window).scroll(function() {
+      $(window).scroll(function() {
         if ($(this).scrollTop() >= 0 && $(this).scrollTop() < Descripcion) {
             $('#btn-header').addClass('active');
         } else {
@@ -93,7 +76,7 @@ $(document).ready(function() {
         } else {
             $('#btn-historial').removeClass('active');
         }
-    });
+      });
 
     $('#btn-header').on('click', function(e) {
         e.preventDefault();

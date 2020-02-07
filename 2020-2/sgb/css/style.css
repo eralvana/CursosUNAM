@@ -446,7 +446,7 @@ header .barras {
   }
   nav ul li a {
     height: 43px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .seccion1 .img {
     padding: 10px;
@@ -479,7 +479,7 @@ header .barras {
   }
   nav ul li a {
     height: 40px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .seccion1,
   .seccion2,
@@ -535,7 +535,7 @@ header .barras {
 @media(max-width: 362px) {
   nav ul li a {
     height: 38px;
-    line-height: 15px;
+    line-height: 20px;
   }
 }
 
