@@ -275,7 +275,7 @@ header .barras {
   }
 }
 
-@media(max-width: 990px) {
+@media(max-width: 991px) {
   body main {
     padding: 0px;
   }
@@ -321,8 +321,11 @@ header .barras {
     margin: 10px;
     padding: 10px;
   }
+  .seccion1 ul{
+    padding: 0px;
+  }
   .seccion1 .libro img {
-    padding-top: 50px;
+    padding-top: 0px;
     width: 250px;
   }
   .Pie-pagina {
@@ -342,8 +345,12 @@ header .barras {
   .seccion1 .img {
     padding-left: 30px;
   }
+  .seccion1 .libro {
+    padding-top: 90px;
+  }
   .seccion1 .libro img {
-    width: 280px;
+    padding-top: 0px;
+    width: 250px;
   }
 }
 
@@ -377,6 +384,16 @@ header .barras {
   }
   .seccion2 ul {
     padding: 30px;
+  }
+}
+
+@media(max-width:767px){
+  .seccion1 .img,
+  .seccion1 .libro {
+    padding: 20px;
+  }
+  .seccion1 .libro img {
+    width: 280px;
   }
 }
 
@@ -417,7 +434,7 @@ header .barras {
     width: 25%;
   }
   .seccion1 .img {
-    padding-top: 150px;
+    padding: 10px;
   }
   .seccion1 .img img {
     width: 160px;
@@ -447,9 +464,6 @@ header .barras {
   nav ul li a {
     height: 43px;
     line-height: 30px;
-  }
-  .seccion1 .img {
-    padding: 10px;
   }
   .seccion2 ul{
     text-align: justify;
@@ -493,9 +507,6 @@ header .barras {
     font-size: 16px;
     margin: 2px;
     padding: 10px;
-  }
-  .seccion1 .img {
-    padding: 10px 0 0 0;
   }
   .seccion1 .img img {
     width: 240px;
