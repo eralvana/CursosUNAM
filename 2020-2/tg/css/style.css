@@ -275,7 +275,7 @@ header .barras {
   }
 }
 
-@media(max-width: 990px) {
+@media(max-width: 991px) {
   body main {
     padding: 0px;
   }
@@ -320,13 +320,22 @@ header .barras {
   .video .informacion {
     padding-top: 0px;
   }
+  .seccion1 ul{
+    padding: 0px;
+  }
   .seccion1 p{
     margin: 10px;
     padding: 10px;
   }
+  .seccion1 .img {
+    padding: 10px;
+    padding-top: 80px;
+  }
+  .seccion1 .libro {
+    padding-top: 40px;
+  }
   .seccion1 .libro img {
-    padding-top: 10px;
-    width: 250px;
+    width: 230px;
   }
   .Pie-pagina {
     padding: 30px;
@@ -341,12 +350,6 @@ header .barras {
   .seccion2,
   .seccion3 {
     font-size: 16pt;
-  }
-  .seccion1 .img {
-    padding-left: 30px;
-  }
-  .seccion1 .libro img {
-    width: 280px;
   }
 }
 
@@ -371,14 +374,18 @@ header .barras {
   .video p {
     font-size: 20px;
   }
-  .seccion1 .libro {
-    padding-top: 120px;
-  }
-  .seccion1 .libro img {
-    width: 220px;
-  }
   .seccion2 ul {
     padding: 30px;
+  }
+}
+
+@media(max-width:767px){
+  .seccion1 .img,
+  .seccion1 .libro {
+    padding: 10px;
+  }
+  .seccion1 .libro img {
+    width: 280px;
   }
 }
 
@@ -400,19 +407,12 @@ header .barras {
   .seccion1 p {
     padding-bottom: 0px;
   }
-  .seccion1 img {
-    padding-top: 50px;
-    width: 180px;
-  }
   .seccion1 .bibliografia {
     margin: 0px;
     padding: 0px;
   }
   .seccion1 .libro img{
     width: 300px;
-  }
-  .seccion1 .libro {
-    padding-top: 0px;
   }
   .seccion2 .lista {
     margin: 0px;
@@ -427,7 +427,7 @@ header .barras {
     width: 25%;
   }
   .seccion1 .img {
-    padding-top: 150px;
+    padding: 10px;
   }
   .seccion1 .img img {
     width: 160px;
@@ -461,9 +461,6 @@ header .barras {
   nav ul li a {
     height: 43px;
     line-height: 30px;
-  }
-  .seccion1 .img {
-    padding: 10px;
   }
   .seccion2 ul{
     text-align: justify;
@@ -506,9 +503,6 @@ header .barras {
     font-size: 16px;
     margin: 2px;
     padding: 10px;
-  }
-  .seccion1 .img {
-    padding: 10px 0 0 0;
   }
   .seccion1 .img img {
     width: 240px;
