@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('nav').toggleClass('active');
   });
   if ($(window).width() > 990) {
-    var a = 76;
+    var a = 150;
   }
   if ($(window).width() <= 990) {
       var a = 110;
@@ -16,7 +16,7 @@ $(document).ready(function() {
       var a = 120;
   }
 
-  var Header = $('#Header').offset().top - 50,
+  var Header = $('#Header').offset().top - 70,
       Noticias = $('#Noticias').offset().top - a,
       Descripcion = $('#Descripcion').offset().top - a,
       Historial = $('#Historial').offset().top - a,
