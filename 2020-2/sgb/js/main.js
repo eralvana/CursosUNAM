@@ -13,7 +13,7 @@ $(document).ready(function() {
       var a = 100;
   }
   if ($(window).width() <= 400) {
-      var a = 120;
+      var a = 120; 
   }
 
   var Header = $('#Header').offset().top - 70,
