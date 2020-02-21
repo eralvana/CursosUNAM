@@ -212,7 +212,8 @@ header .barras {
 
 
 .cuadro1,
-.cuadro2 {
+.cuadro2,
+.cuadrotarea {
   font-size: 24px;
   color: #FFFFFF;
   display: flex;
@@ -225,25 +226,29 @@ header .barras {
 }
 
 .cuadro1:hover,
-.cuadro2:hover {
+.cuadro2:hover,
+.cuadrotarea:hover {
   background-size: 150%;
   border: #FFFF00 solid 4px;
   box-shadow: 10px 10px 10px #000000;
 }
 
 .cuadro2:hover .titulocuadro,
-.cuadro1:hover .titulocuadro {
+.cuadro1:hover .titulocuadro,
+.cuadrotarea:hover .titulocuadro {
   color: #FFFF00;
 }
 
 .cuadro1 {
   background-image: url(../img-video/triangulos-azules.png);
-  cursor: pointer;
 }
 
 .cuadro2 {
   background-image: url(../img-video/triangulos-grises.jpg);
-  cursor: pointer;
+}
+
+.cuadrotarea {
+  background-image: url(../img-video/tarea.jpg);
 }
 
 .marco{
@@ -438,7 +443,8 @@ header .barras {
     padding-bottom: 0px;
   }
   .seccion1 .cuadro1,
-  .seccion1 .cuadro2 {
+  .seccion1 .cuadro2,
+  .seccion1 .cuadrotarea {
     margin: 4px 0;
   }
 }
@@ -530,11 +536,13 @@ header .barras {
     text-align: center;
   }
   .cuadro1 .titulocuadro,
-  .cuadro2 .titulocuadro{
+  .cuadro2 .titulocuadro,
+  .cuadrotarea .titulocuadro {
     font-size: 18px;
   }
   .cuadro1,
-  .cuadro2 {
+  .cuadro2,
+  .cuadrotarea {
     font-size: 18px;
   }
 }
