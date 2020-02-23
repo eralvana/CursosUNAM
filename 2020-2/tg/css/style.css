@@ -177,6 +177,11 @@ header .barras {
   padding-bottom: 10px;
 }
 
+.seccion2 a:hover{
+  color: #FFFF00;
+  text-decoration: none;
+}
+
 .seccion2 b {
   color: #FFFF00;
 }
@@ -225,10 +230,25 @@ header .barras {
   cursor: pointer;
 }
 
+.cuadrotarea a {
+  color: #FFFFFF;
+  margin: 5px;
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadrotarea a:hover {
+  text-decoration: none;
+}
+
 .cuadro1:hover,
 .cuadro2:hover,
 .cuadrotarea:hover {
-  background-size: 150%;
+  background-size: 100%;
   border: #FFFF00 solid 4px;
   box-shadow: 10px 10px 10px #000000;
 }
@@ -248,7 +268,7 @@ header .barras {
 }
 
 .cuadrotarea {
-  background-image: url(../img-video/tarea.jpg);
+  background-image: url(../img-video/tarea1.jpg);
 }
 
 .marco{
