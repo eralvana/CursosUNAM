@@ -276,6 +276,10 @@ header .barras {
   box-shadow: 10px 10px 10px #000000;
 }
 
+#Historial #accordion video{
+width: 600px;
+}
+
 /* Pie-página */
 .Pie-pagina {
   background: #1ABC9C;
