@@ -368,6 +368,10 @@ width: 600px;
   .Pie-pagina {
     padding: 30px;
   }
+
+  #Historial #accordion video{
+    width: 500px;
+}
 }
 
 @media(max-width: 900px) {
@@ -405,6 +409,9 @@ width: 600px;
   .seccion2 ul {
     padding: 30px;
   }
+  #Historial #accordion video{
+    width: 450px;
+}
 }
 
 @media(max-width:767px){
@@ -415,6 +422,9 @@ width: 600px;
   .seccion1 .libro img {
     width: 280px;
   }
+  #Historial #accordion video{
+    width: 300px;
+}
 }
 
 @media(max-width:700px) {
@@ -498,6 +508,9 @@ width: 600px;
   .seccion2 a{
     font-size: 18px;
   }
+    #Historial #accordion video{
+    width: 210px;
+}
 }
 
 @media(max-width: 400px) {
@@ -581,4 +594,7 @@ width: 600px;
   .seccion .columna {
     padding-top: 5px;
   }
+  #Historial #accordion video{
+    width: 170px;
+}
 }
