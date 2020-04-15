@@ -22,7 +22,6 @@ $(document).ready(function() {
         Evaluacion = $('#Evaluacion').offset().top - a,
         Bibliografia = $('#Bibliografia').offset().top - a,
         Contacto = $('#Contacto').offset().top - a,
-        Video1 = $('#video-1').offset().top-a;
 
     // Cumpleaños = $('#Cumple')
     $(window).scroll(function() {
@@ -137,13 +136,6 @@ $(document).ready(function() {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: Noticias + 1
-        }, 1000);
-    });
-
-    $('#video1').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: Video1 +1
         }, 1000);
     });
 });
