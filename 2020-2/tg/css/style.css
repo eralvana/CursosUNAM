@@ -276,6 +276,11 @@ header .barras {
   box-shadow: 10px 10px 10px #000000;
 }
 
+#Historial #accordion iframe{
+width: 600px;
+height: 480px;
+}
+
 /* Pie-página */
 .Pie-pagina {
   background: #1ABC9C;
@@ -328,6 +333,7 @@ header .barras {
     transition: 0.5s;
     border: 2px solid #000000;
   }
+  
   header nav.active {
     right: 0;
   }
@@ -364,6 +370,11 @@ header .barras {
   .Pie-pagina {
     padding: 30px;
   }
+
+#Historial #accordion iframe{
+width: 500px;
+height: 400px;
+}
 }
 
 @media(max-width: 900px) {
@@ -401,6 +412,10 @@ header .barras {
   .seccion2 ul {
     padding: 30px;
   }
+ #Historial #accordion iframe{
+width: 450px;
+height: 360px;
+}
 }
 
 @media(max-width:767px){
@@ -411,6 +426,10 @@ header .barras {
   .seccion1 .libro img {
     width: 280px;
   }
+ #Historial #accordion iframe{
+width: 300px;
+height: 240px;
+}
 }
 
 @media(max-width:700px) {
@@ -494,6 +513,10 @@ header .barras {
   .seccion2 a{
     font-size: 18px;
   }
+#Historial #accordion iframe{
+width: 210px;
+height: 168px;
+}
 }
 
 @media(max-width: 400px) {
@@ -577,4 +600,8 @@ header .barras {
   .seccion .columna {
     padding-top: 5px;
   }
+#Historial #accordion iframe{
+width: 170px;
+height: 136px;
+}
 }
