@@ -276,8 +276,9 @@ header .barras {
   box-shadow: 10px 10px 10px #000000;
 }
 
-#Historial #accordion video{
+#Historial #accordion iframe{
 width: 600px;
+height: 480px;
 }
 
 /* Pie-página */
@@ -332,6 +333,7 @@ width: 600px;
     transition: 0.5s;
     border: 2px solid #000000;
   }
+  
   header nav.active {
     right: 0;
   }
@@ -369,8 +371,9 @@ width: 600px;
     padding: 30px;
   }
 
-  #Historial #accordion video{
-    width: 500px;
+#Historial #accordion iframe{
+width: 500px;
+height: 400px;
 }
 }
 
@@ -409,8 +412,9 @@ width: 600px;
   .seccion2 ul {
     padding: 30px;
   }
-  #Historial #accordion video{
-    width: 450px;
+ #Historial #accordion iframe{
+width: 450px;
+height: 360px;
 }
 }
 
@@ -422,8 +426,9 @@ width: 600px;
   .seccion1 .libro img {
     width: 280px;
   }
-  #Historial #accordion video{
-    width: 300px;
+ #Historial #accordion iframe{
+width: 300px;
+height: 240px;
 }
 }
 
@@ -508,8 +513,9 @@ width: 600px;
   .seccion2 a{
     font-size: 18px;
   }
-    #Historial #accordion video{
-    width: 210px;
+#Historial #accordion iframe{
+width: 210px;
+height: 168px;
 }
 }
 
@@ -594,7 +600,8 @@ width: 600px;
   .seccion .columna {
     padding-top: 5px;
   }
-  #Historial #accordion video{
-    width: 170px;
+#Historial #accordion iframe{
+width: 170px;
+height: 136px;
 }
 }
