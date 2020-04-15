@@ -21,7 +21,7 @@ $(document).ready(function() {
         Metodologia = $('#Metodologia').offset().top - a,
         Evaluacion = $('#Evaluacion').offset().top - a,
         Bibliografia = $('#Bibliografia').offset().top - a,
-        Contacto = $('#Contacto').offset().top - a,
+        Contacto = $('#Contacto').offset().top - a;
 
     // Cumpleaños = $('#Cumple')
     $(window).scroll(function() {
