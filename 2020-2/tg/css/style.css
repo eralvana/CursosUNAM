@@ -103,7 +103,7 @@ nav ul li.active {
   text-decoration: none;
 }
 
-nav ul li.active a{
+nav ul li.active a {
   color: #1ABC9C;
   text-decoration: underline;
   text-decoration-style: wavy;
@@ -130,7 +130,7 @@ header .barras {
 }
 
 /* Sección1 */
-.seccion1{
+.seccion1 {
   text-align: center;
   color: #2C3E50;
   transition: 2s;
@@ -148,11 +148,11 @@ header .barras {
   padding: 20px;
 }
 
-.seccion1 .img{
+.seccion1 .img {
   padding: 100px;
 }
 
-.seccion1 .libro{
+.seccion1 .libro {
   width: 50%;
   padding-top: 100px;
 }
@@ -177,7 +177,7 @@ header .barras {
   padding-bottom: 10px;
 }
 
-.seccion2 a:hover{
+.seccion2 a:hover {
   color: #FFFF00;
   text-decoration: none;
 }
@@ -204,12 +204,12 @@ header .barras {
   padding: 20px;
 }
 
-.seccion3 a{
+.seccion3 a {
   text-shadow: none;
   color: #0000FF;
 }
 
-.seccion3 a:hover{
+.seccion3 a:hover {
   text-shadow: none;
   color: #FFFF00;
   text-decoration: none;
@@ -270,15 +270,15 @@ header .barras {
   background-image: url(../img-video/tarea1.jpg);
 }
 
-.marco{
+.marco {
   border: 4px solid #000000;
   padding: 20px;
   box-shadow: 10px 10px 10px #000000;
 }
 
-#Historial #accordion iframe{
-width: 600px;
-height: 480px;
+#Historial #accordion iframe {
+  width: 600px;
+  height: 480px;
 }
 
 /* Pie-página */
@@ -292,12 +292,14 @@ height: 480px;
 }
 
 /* Media */
-@media(max-width:1200px){
+@media(max-width:1200px) {
+
   .seccion,
   .columna {
     padding: 30px;
     margin: 0px;
   }
+
   .seccion1 .libro img {
     padding-top: 30px;
     width: 250px;
@@ -308,23 +310,29 @@ height: 480px;
   body main {
     padding: 0px;
   }
+
   header {
     width: 100%;
   }
+
   header .contenedor {
     padding: 10px;
   }
+
   .video {
     margin-top: 40px;
   }
+
   .video img {
     width: 300px;
   }
+
   header .barras {
     margin-top: 20px;
     display: block;
     z-index: 3;
   }
+
   header nav {
     position: absolute;
     width: 20%;
@@ -333,54 +341,65 @@ height: 480px;
     transition: 0.5s;
     border: 2px solid #000000;
   }
-  
+
   header nav.active {
     right: 0;
   }
+
   header nav ul {
     display: block;
     text-align: center;
   }
+
   header nav ul li a {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
   }
+
   .video video {
     width: 300px;
   }
+
   .video .informacion {
     padding-top: 0px;
   }
-  .seccion1 ul{
+
+  .seccion1 ul {
     padding: 0px;
   }
-  .seccion1 p{
+
+  .seccion1 p {
     margin: 10px;
     padding: 10px;
   }
+
   .seccion1 .img {
     padding: 10px;
     padding-top: 80px;
   }
+
   .seccion1 .libro {
     padding-top: 40px;
   }
+
   .seccion1 .libro img {
     width: 230px;
   }
+
   .Pie-pagina {
     padding: 30px;
   }
 
-#Historial #accordion iframe{
-width: 500px;
-height: 400px;
-}
+  #Historial #accordion iframe {
+    width: 500px;
+    height: 400px;
+  }
 }
 
 @media(max-width: 900px) {
   .video video {
     width: 350px;
   }
+
   .seccion1,
   .seccion2,
   .seccion3 {
@@ -395,72 +414,89 @@ height: 400px;
     line-height: 10px;
     font-size: 22px;
   }
+
   .titulo h1 {
     padding: 5px;
     font-size: 24px;
   }
+
   .titulo h2 {
     padding: 5px;
     font-size: 16px;
   }
+
   .video video {
     width: 260px;
   }
+
   .video p {
     font-size: 20px;
   }
+
   .seccion2 ul {
     padding: 30px;
   }
- #Historial #accordion iframe{
-width: 450px;
-height: 360px;
-}
+
+  #Historial #accordion iframe {
+    width: 450px;
+    height: 360px;
+  }
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
+
   .seccion1 .img,
   .seccion1 .libro {
     padding: 10px;
   }
+
   .seccion1 .libro img {
     width: 280px;
   }
- #Historial #accordion iframe{
-width: 300px;
-height: 240px;
-}
+
+  #Historial #accordion iframe {
+    width: 300px;
+    height: 240px;
+  }
 }
 
 @media(max-width:700px) {
+
   .seccion,
   .columna {
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .video img {
     padding-top: 20px;
     width: 250px;
   }
+
   nav ul li a {
     height: 50px;
     line-height: 30px;
   }
+
   .seccion1 p {
     padding-bottom: 0px;
   }
+
   .seccion1 .bibliografia {
     margin: 0px;
     padding: 0px;
   }
-  .seccion1 .libro img{
+
+  .seccion1 .libro img {
     width: 300px;
   }
+
   .seccion2 .lista {
     margin: 0px;
   }
-  .seccion2 a{
+
+  .seccion2 a {
     font-size: 20px;
   }
 }
@@ -469,17 +505,21 @@ height: 240px;
   header nav {
     width: 25%;
   }
+
   .seccion1 .img {
     padding: 10px;
   }
+
   .seccion1 .img img {
     width: 160px;
   }
+
   .seccion2 .lista {
     padding-left: 60px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
   .seccion1 .cuadro1,
   .seccion1 .cuadro2,
   .seccion1 .cuadrotarea {
@@ -491,60 +531,73 @@ height: 240px;
   header nav {
     width: 35%;
   }
-  .contenedor-video{
+
+  .contenedor-video {
     padding: 10px;
   }
+
   .video {
     position: relative;
     padding-bottom: 10px;
   }
+
   .video img {
     padding-top: 0px;
     width: 300px;
   }
+
   nav ul li a {
     height: 43px;
     line-height: 30px;
   }
-  .seccion2 ul{
+
+  .seccion2 ul {
     text-align: justify;
     padding-left: 50px;
   }
-  .seccion2 a{
+
+  .seccion2 a {
     font-size: 18px;
   }
-#Historial #accordion iframe{
-width: 210px;
-height: 168px;
-}
+
+  #Historial #accordion iframe {
+    width: 210px;
+    height: 168px;
+  }
 }
 
 @media(max-width: 400px) {
   .seccion .columna {
     padding-top: 30px;
   }
+
   .video {
     margin-top: 60px;
   }
+
   .video video {
     width: 280px;
   }
+
   header .barras {
     position: fixed;
     top: 0;
     line-height: 0;
     font-size: 20px;
   }
+
   nav ul li a {
     height: 40px;
     line-height: 20px;
   }
+
   .seccion1,
   .seccion2,
   .seccion3 {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
   .seccion1 p,
   .seccion2 p,
   .seccion3 p {
@@ -552,36 +605,45 @@ height: 168px;
     margin: 2px;
     padding: 10px;
   }
+
   .seccion1 .img img {
     width: 240px;
   }
+
   .seccion2 .lista {
     font-size: 16px;
     padding-right: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
   .seccion2 .img {
     text-align: center;
   }
+
   .seccion2 .img img {
     width: 250px;
   }
+
   .seccion2 ul {
     font-size: 16px;
     margin: 0px;
   }
+
   .seccion2 li {
     padding: 5px;
   }
+
   .seccion1 .libro {
     text-align: center;
   }
+
   .cuadro1 .titulocuadro,
   .cuadro2 .titulocuadro,
   .cuadrotarea .titulocuadro {
     font-size: 18px;
   }
+
   .cuadro1,
   .cuadro2,
   .cuadrotarea {
@@ -600,8 +662,9 @@ height: 168px;
   .seccion .columna {
     padding-top: 5px;
   }
-#Historial #accordion iframe{
-width: 170px;
-height: 136px;
-}
+
+  #Historial #accordion iframe {
+    width: 170px;
+    height: 136px;
+  }
 }
