@@ -3,9 +3,12 @@ import Main from "./Main"
 import Footer from "./Footer"
 
 function App() {
+  const info = {
+    title : "Geometría Moderna I"
+  }
   return (
     <>
-    <Header/>
+    <Header title={info.title}/>
     <Main/>
     <Footer/>
     </>
