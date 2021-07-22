@@ -4,8 +4,7 @@ function Syllabus(props) {
       <div>
         <h2>Temario</h2>
       </div>
-      <div>
-        {props.syllabus}
+      <div dangerouslySetInnerHTML={{__html: props.syllabus}}>
       </div>
     </section>
   );

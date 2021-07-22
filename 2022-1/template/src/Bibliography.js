@@ -4,8 +4,7 @@ function Bibliography(props) {
       <div>
         <h2>Bibliografía</h2>
       </div>
-      <div>
-        {props.bibliography}
+      <div dangerouslySetInnerHTML={{__html: props.bibliography}}>
       </div>
     </section>
   );
