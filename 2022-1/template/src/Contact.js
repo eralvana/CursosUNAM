@@ -1,4 +1,4 @@
-function Contact() {
+function Contact(props) {
   return (
     <section id="Contact">
       <div>
@@ -11,7 +11,11 @@ function Contact() {
               <li>Aula 1 (Nuevo Edificio) del Instituto de Matemáticas - <a href="mailto:ernestociencias@yahoo.com.mx">ernestociencias@yahoo.com.mx</a></li>
             </ul>
           </li>
-          <li>XXX = Geometría Moderna I o Teoría de Gráficas</li>
+          <li>{props.teacherassistant}
+            <ul>
+              <li>{props.teacherassistantplace} - <a href="mailto:{props.teacherassistantemail}">{props.teacherassistantemail}</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </section>
