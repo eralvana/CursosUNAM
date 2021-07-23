@@ -13,7 +13,7 @@ function Contact(props) {
           </li>
           <li>{props.teacherassistant}
             <ul>
-              <li>{props.teacherassistantplace} - <a href={props.teacherassistantemailto}>{props.teacherassistantemail}</a></li>
+              <li>{props.teacherassistantplace} - <a href={`mailto:${props.teacherassistantemail}`}>{props.teacherassistantemail}</a></li>
             </ul>
           </li>
         </ul>

@@ -17,12 +17,11 @@ function App() {
     teacherassistant: "Sandra Cecilia Pérez Valles",
     teacherassistantplace: "Facultad de Ciencias, UNAM",
     teacherassistantemail: "sandycecilia97@ciencias.unam.mx",
-    teacherassistantemailto: "mailto:sandycecilia97@ciencias.unam.mx"
   }
   return (
     <>
     <Header coursename={info.coursename}/>
-    <Main name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroomcode} classroominvitation={info.classroominvitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant} teacherassistantplace={info.teacherassistantplace} teacherassistantemail={info.teacherassistantemail} teacherassistantemailto={info.teacherassistantemailto}/>
+    <Main name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroomcode} classroominvitation={info.classroominvitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant} teacherassistantplace={info.teacherassistantplace} teacherassistantemail={info.teacherassistantemail}/>
     <Footer/>
     </>
   );

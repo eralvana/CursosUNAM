@@ -15,7 +15,7 @@ function Main(props) {
       <Methodology classroomcode={props.classroomcode} classroominvitation={props.classroominvitation} meetlink={props.meetlink} courselinkpageweb={props.courselinkpageweb}/>
       <Evaluation/>
       <Bibliography bibliography={props.bibliography}/>
-      <Contact teacherassistant={props.teacherassistant} teacherassistantplace={props.teacherassistantplace} teacherassistantemail={props.teacherassistantemail} teacherassistantemailto={props.teacherassistantemailto}/>
+      <Contact teacherassistant={props.teacherassistant} teacherassistantplace={props.teacherassistantplace} teacherassistantemail={props.teacherassistantemail}/>
     </main>
   );
 }
