@@ -5,17 +5,11 @@ function Syllabus(props) {
         <h2>Temario</h2>
       </div>
       <div>
-        <p>
-          <ol>
-            <li>{props.syllabus[0]}</li>
-            <li>{props.syllabus[1]}</li>
-            <li>{props.syllabus[2]}</li>
-            <li>{props.syllabus[3]}</li>
-            <li>{props.syllabus[4]}</li>
-            <li>{props.syllabus[5]}</li>
-            <li>{props.syllabus[6]}</li>
-          </ol>
-        </p>
+        <ol>
+        {
+          props.syllabus.map((e,i) => <li key={i}>{e}.</li>)
+        }
+        </ol>
       </div>
     </section>
   );

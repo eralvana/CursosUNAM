@@ -5,7 +5,6 @@ function Evaluation() {
         <h2>Evaluación del curso</h2>
       </div>
       <div>
-        <p>
           <ul>
             <li>
               Se realizarán al menos cuatro evaluaciones (exámenes parciales, exposición, tarea examen, etcétera). La fecha se establecerá una vez concluidos los temas que engloben la respectiva evaluación (con al menos 5 días de anticipación).
@@ -40,7 +39,6 @@ function Evaluation() {
               La única posibilidad de obtener <b>NP</b> es precisamente cuando no se haya presentado algún trabajo al curso.
             </li>
           </ul>
-        </p>
       </div>
     </section>
   );

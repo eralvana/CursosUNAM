@@ -6,12 +6,13 @@ function Bibliography(props) {
       </div>
       <div>
         <ul>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[0]}}></li>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[1]}}></li>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[2]}}></li>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[3]}}></li>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[4]}}></li>
-          <li dangerouslySetInnerHTML={{__html: props.bibliography[5]}}></li>
+        {
+        props.bibliography.map(function(e,i){
+        return (
+        <li key={i}>{e.author} ({e.year}). <em>{e.title}</em>. {e.printer}.</li>
+        )
+        })
+        }
         </ul>
       </div>
     </section>
