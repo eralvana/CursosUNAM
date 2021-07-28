@@ -6,14 +6,24 @@ import Footer from "./Footer"
 const URL = "https://gist.githubusercontent.com/eralvana/629d22d4169ba1366cbae4f0cc9f7e8f/raw/c9dd6ccf7dbec13b4e58aa19a11b846b15c5fa6f/gistfile1.txt"
 
 function App() {
-	const [info,Setinfo] = React.useState({})
+	const [info,setInfo] = React.useState({
+	name: "",
+	coursename: "",
+	group: "",
+	syllabus: [],
+	classroom: {code: "", invitation: ""},
+	meetlink: "",
+	courselinkpageweb: "",
+	bibliography: [],
+	teacherassistant: {name: "", place: "", email :""}
+	})
 	React.useEffect(function(){
-	fetch(URL).then(r => r.json()).then(console.log)
+	fetch(URL).then(r => r.json()).then(setInfo)
 	})
   return (
     <>
     <Header coursename={info.coursename}/>
-    <Main name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroomcode} classroominvitation={info.classroominvitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant} teacherassistantplace={info.teacherassistantplace} teacherassistantemail={info.teacherassistantemail}/>
+    <Main name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroom.code} classroominvitation={info.classroom.invitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant.name} teacherassistantplace={info.teacherassistant.place} teacherassistantemail={info.teacherassistant.email}/>
     <Footer/>
     </>
   );
