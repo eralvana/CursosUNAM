@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background-0 {
+  background: #0A1931;
+  color: #FFC947;
+}
+
+.background-0 a {
+  color: #FFC947;
+  text-decoration: none;
+}
+
+.background-0 a:hover {
+  color: #185ADB;
+  background-color: #FFC947;
+}
+
+.background-1 {
+  background: #185ADB;
+  color: #EFEFEF;
+  text-align: center;
+}
+
+.background-2 {
+  background: #FFC947;
+  text-align: center;
+}
+
+.background-3 {
+  background: #EFEFEF;
+  text-align: center;
+  /* padding: 3rem 0; */
+}
+
+h1, h2 {
+  text-align: center;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+ul, ol, li {
+  text-align: left;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}

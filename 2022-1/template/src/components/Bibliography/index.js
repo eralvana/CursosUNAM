@@ -1,6 +1,8 @@
+import "./styles.css"
+
 function Bibliography(props) {
   return (
-    <section id="Bibliography">
+    <section id="Bibliography" className="background-3">
       <div>
         <h2>Bibliografía</h2>
       </div>

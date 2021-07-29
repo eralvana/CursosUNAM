@@ -1,0 +1,15 @@
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  display: inline-table;
+}

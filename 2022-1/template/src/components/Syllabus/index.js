@@ -1,6 +1,8 @@
+import "./styles.css"
+
 function Syllabus(props) {
   return (
-    <section id="Syllabus">
+    <section id="Syllabus" className="background-2">
       <div>
         <h2>Temario</h2>
       </div>

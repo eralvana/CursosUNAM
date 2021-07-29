@@ -1,0 +1,54 @@
+{
+	"name": "Geometría",
+	"coursename": "Geometría Moderna I",
+	"group": "4091",
+	"syllabus": ["Introducción", "Congruencia", "Semejanza de triángulos", "Semejanza de polígonos", "Teorema de Ceva y Teorema de Menelao", "Teorema de Desargues", "Puntos y rectas armónicos"],
+	"classroom": {
+		"code": "css4m5n",
+		"invitation": "https://classroom.google.com/c/Mzc0ODIzODQ2MzEx?cjc=css4m5n"
+	},
+	"meetlink": "https://meet.google.com/tjr-kggt-fix",
+	"courselinkpageweb": "http://www.fciencias.unam.mx/docencia/horarios/presentacion/326923",
+	"bibliography": [{
+			"author": "Shively, L.",
+			"year": "1977",
+			"title": "Introducción a la geometría moderna",
+			"printer": "México: CECSA"
+		},
+		{
+			"author": "Coxeter, H. & Greitzer, S. ",
+			"year": "1967",
+			"title": "Geometry revisited",
+			"printer": "New Math. Library, MAA"
+		},
+		{
+			"author": "Eves, H.",
+			"year": "1985",
+			"title": "Estudio de las Geometrías",
+			"printer": "UTHEA"
+		},
+		{
+			"author": "Bulajich, R. & Goméz, J.A.",
+			"year": "2002",
+			"title": "Geometría, Cuadernos de las Olimpiadas de Matemáticas",
+			"printer": "México: IMATE-UNAM"
+		},
+		{
+			"author": "Cárdenas, S.",
+			"year": "2013",
+			"title": "Notas de geometría",
+			"printer": "México: Prensas de Ciencias"
+		},
+		{
+			"author": "Lucio, G., San Agustín, R. & Martínez de la Escalera, N.",
+			"year": "2001",
+			"title": "Un poco de geometría",
+			"printer": "México: Vínculos Matemáticos # 155, Notas de clase. Facultad de Ciencias, UNAM"
+		}
+	],
+	"teacherassistant": {
+		"name": "Sandra Cecilia Pérez Valles",
+		"place": "Facultad de Ciencias, UNAM",
+		"email": "sandycecilia97@ciencias.unam.mx"
+	}
+}

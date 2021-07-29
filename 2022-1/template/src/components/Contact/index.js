@@ -1,6 +1,8 @@
+import "./styles.css"
+
 function Contact(props) {
   return (
-    <section id="Contact">
+    <section id="Contact" className="background-2">
       <div>
         <h2>Contacto</h2>
       </div>

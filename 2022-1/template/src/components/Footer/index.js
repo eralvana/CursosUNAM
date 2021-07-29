@@ -1,8 +1,10 @@
+import "./styles.css"
+
 function Footer() {
   return (
-    <footer>
+    <footer className="background-0">
       <div>
-        <p>Derechos Reservados &copy; 2021</p>
+        Derechos Reservados &copy; 2021
       </div>
     </footer>
   );

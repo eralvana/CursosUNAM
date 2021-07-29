@@ -1,25 +1,13 @@
 import React from "react"
-import Header from "./Header"
-import Main from "./Main"
-import Footer from "./Footer"
+import Header from "../Header"
+import Main from "../Main"
+import Footer from "../Footer"
+import infoGMI from "../../info/GMI.json"
+import info from "../../info/TG.json"
 
-const URL = "https://gist.githubusercontent.com/eralvana/629d22d4169ba1366cbae4f0cc9f7e8f/raw/c9dd6ccf7dbec13b4e58aa19a11b846b15c5fa6f/gistfile1.txt"
+import "./styles.css"
 
 function App() {
-	const [info,setInfo] = React.useState({
-	name: "",
-	coursename: "",
-	group: "",
-	syllabus: [],
-	classroom: {code: "", invitation: ""},
-	meetlink: "",
-	courselinkpageweb: "",
-	bibliography: [],
-	teacherassistant: {name: "", place: "", email :""}
-	})
-	React.useEffect(function(){
-	fetch(URL).then(r => r.json()).then(setInfo)
-	})
   return (
     <>
     <Header coursename={info.coursename}/>
