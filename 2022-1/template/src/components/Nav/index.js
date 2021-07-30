@@ -4,13 +4,13 @@ function Nav() {
   return (
     <nav>
       <ul className="background-0">
-        <a href=""><li>Inicio</li></a>
-        <a href=""><li>Descripción</li></a>
-        <a href=""><li>Temario</li></a>
-        <a href=""><li>Metodología</li></a>
-        <a href=""><li>Evaluación</li></a>
-        <a href=""><li>Bibliografía</li></a>
-        <a href=""><li>Contacto</li></a>
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Descripción</a></li>
+        <li><a href="">Temario</a></li>
+        <li><a href="">Metodología</a></li>
+        <li><a href="">Evaluación</a></li>
+        <li><a href="">Bibliografía</a></li>
+        <li><a href="">Contacto</a></li>
       </ul>
     </nav>
   );

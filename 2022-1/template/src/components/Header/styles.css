@@ -1,4 +1,7 @@
+header {
+  padding: 1rem 0rem;
+}
+
 header h1 {
-  margin-block-start: 0rem;
-  margin-block-end: 0rem;
+  margin: 0rem 0rem 1.5rem;
 }

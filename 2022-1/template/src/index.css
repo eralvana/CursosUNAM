@@ -20,16 +20,16 @@ code {
 .background-0 a {
   color: #FFC947;
   text-decoration: none;
+  transition: all 350ms;
 }
 
 .background-0 a:hover {
-  color: #185ADB;
-  background-color: #FFC947;
+  color: #EFEFEF;
+  background-color: #185ADB;
 }
 
 .background-1 {
-  background: #185ADB;
-  color: #EFEFEF;
+  background: #EFEFEF;
   text-align: center;
 }
 
@@ -39,9 +39,9 @@ code {
 }
 
 .background-3 {
-  background: #EFEFEF;
+  background: #185ADB;
+  color: #EFEFEF;
   text-align: center;
-  /* padding: 3rem 0; */
 }
 
 h1, h2 {
