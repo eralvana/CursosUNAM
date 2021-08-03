@@ -11,7 +11,7 @@ import "./styles.css"
 function Main(props) {
   return (
     <main>
-      <Presentation coursename={props.coursename} group={props.group}/>
+      <Presentation index={props.index} coursename={props.coursename} group={props.group}/>
       <Description name={props.name}/>
       <Syllabus syllabus={props.syllabus}/>
       <Methodology classroomcode={props.classroomcode} classroominvitation={props.classroominvitation} meetlink={props.meetlink} courselinkpageweb={props.courselinkpageweb}/>

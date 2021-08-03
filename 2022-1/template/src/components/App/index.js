@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Header coursename={info.coursename}/>
-    <Main name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroom.code} classroominvitation={info.classroom.invitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant.name} teacherassistantplace={info.teacherassistant.place} teacherassistantemail={info.teacherassistant.email}/>
+    <Main index={info.index} name={info.name} coursename={info.coursename} group={info.group} syllabus={info.syllabus} classroomcode={info.classroom.code} classroominvitation={info.classroom.invitation} meetlink={info.meetlink} courselinkpageweb={info.courselinkpageweb} bibliography={info.bibliography} teacherassistant={info.teacherassistant.name} teacherassistantplace={info.teacherassistant.place} teacherassistantemail={info.teacherassistant.email}/>
     <Footer/>
     </>
   );

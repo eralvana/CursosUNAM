@@ -7,7 +7,22 @@ nav {
   nav{
     overflow-x: auto;
     overflow-y: hidden;
-    line-height: 2rem;
+    line-height: 4rem;
+    scroll-behavior: auto;
+  }
+
+  nav::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  nav::-webkit-scrollbar-track {
+    background: #FFC947;
+  }
+
+  nav::-webkit-scrollbar-thumb {
+    background-color: #185ADB;
+    border-radius: 20px;
+    border: 3px solid #FFC947;
   }
 }
 
