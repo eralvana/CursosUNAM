@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5rem;
 }
 
 code {
@@ -38,6 +39,10 @@ code {
   text-align: center;
 }
 
+.background-2 b {
+  color: #FFC947;
+}
+
 .background-3 {
   background: #185ADB;
   color: #EFEFEF;
@@ -48,10 +53,17 @@ h1, h2 {
   text-align: center;
   margin-block-start: 0rem;
   margin-block-end: 0rem;
+  margin: 0rem 1.5rem;
+  padding: 2rem;
 }
 
 ul, ol, li {
   text-align: left;
   margin-block-start: 0rem;
   margin-block-end: 0rem;
+}
+
+.center {
+  padding: 2rem;
+  text-align: center;
 }

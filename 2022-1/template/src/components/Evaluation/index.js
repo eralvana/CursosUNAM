@@ -4,9 +4,9 @@ function Evaluation() {
   return (
     <section id="Evaluation" className="background-0">
       <div>
-        <h2>Evaluación del curso</h2>
+        <h1>Evaluación del curso</h1>
       </div>
-      <div>
+      <div class="evaluation">
         <ul>
           <li>
             Se realizarán al menos cuatro evaluaciones (exámenes parciales, exposición, tarea examen, etcétera). La fecha se establecerá una vez concluidos los temas que engloben la respectiva evaluación (con al menos 5 días de anticipación).

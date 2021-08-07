@@ -1,3 +1,10 @@
-.presentation {
+.descriptionpresentation {
+  padding: 1rem;
+  text-shadow: solid;
+  font-size: 2rem;
+  font: solid;
+}
 
+.descriptionimage{
+  padding: 2rem;
 }

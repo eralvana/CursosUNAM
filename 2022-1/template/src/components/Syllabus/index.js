@@ -4,9 +4,9 @@ function Syllabus(props) {
   return (
     <section id="Syllabus" className="background-2">
       <div>
-        <h2>Temario</h2>
+        <h1>Temario</h1>
       </div>
-      <div>
+      <div class="syllabus">
         <ol>
         {
           props.syllabus.map((e,i) => <li key={i}>{e}.</li>)

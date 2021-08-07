@@ -4,9 +4,9 @@ function Contact(props) {
   return (
     <section id="Contact" className="background-2">
       <div>
-        <h2>Contacto</h2>
+        <h1>Contacto</h1>
       </div>
-      <div>
+      <div class="contact">
         <ul>
           <li>Ernesto Vázquez
             <ul>

@@ -4,10 +4,10 @@ function Bibliography(props) {
   return (
     <section id="Bibliography" className="background-3">
       <div>
-        <h2>Bibliografía</h2>
+        <h1>Bibliografía</h1>
       </div>
-      <div>
-        <ul>
+      <div class="center">
+        <ul class="bibliography">
         {
         props.bibliography.map(function(e,i){
         return (
