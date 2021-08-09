@@ -1,6 +1,10 @@
+import Context from "../../context.js"
+import { useContext } from 'react';
+
 import "./styles.css"
 
-function Syllabus(props) {
+function Syllabus() {
+  const value = useContext(Context);
   return (
     <section id="Syllabus" className="background-2">
       <div>
@@ -9,7 +13,7 @@ function Syllabus(props) {
       <div class="syllabus">
         <ol>
         {
-          props.syllabus.map((e,i) => <li key={i}>{e}.</li>)
+          value.syllabus.map((e,i) => <li key={i}>{e}.</li>)
         }
         </ol>
       </div>

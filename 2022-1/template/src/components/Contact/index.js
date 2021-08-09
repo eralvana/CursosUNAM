@@ -1,6 +1,10 @@
+import Context from "../../context.js"
+import { useContext } from 'react';
+
 import "./styles.css"
 
-function Contact(props) {
+function Contact() {
+  const value = useContext(Context);
   return (
     <section id="Contact" className="background-2">
       <div>
@@ -13,9 +17,9 @@ function Contact(props) {
               <li>Aula 1 (Nuevo Edificio) del Instituto de Matemáticas - <a href="mailto:ernestociencias@yahoo.com.mx">ernestociencias@yahoo.com.mx</a></li>
             </ul>
           </li>
-          <li>{props.teacherassistant}
+          <li>{value.teacherassistant.name}
             <ul>
-              <li>{props.teacherassistantplace} - <a href={`mailto:${props.teacherassistantemail}`}>{props.teacherassistantemail}</a></li>
+              <li>{value.teacherassistant.place} - <a href={`mailto:${value.teacherassistant.email}`}>{value.teacherassistant.email}</a></li>
             </ul>
           </li>
         </ul>

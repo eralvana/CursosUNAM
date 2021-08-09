@@ -1,6 +1,10 @@
+import Context from "../../context.js"
+import { useContext } from 'react';
+
 import "./styles.css"
 
-function Bibliography(props) {
+function Bibliography() {
+  const value = useContext(Context);
   return (
     <section id="Bibliography" className="background-3">
       <div>
@@ -9,7 +13,7 @@ function Bibliography(props) {
       <div class="center">
         <ul class="bibliography">
         {
-        props.bibliography.map(function(e,i){
+        value.bibliography.map(function(e,i){
         return (
         <li key={i}>{e.author} ({e.year}). <em>{e.title}</em>. {e.printer}.</li>
         )

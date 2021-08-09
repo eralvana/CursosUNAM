@@ -8,3 +8,14 @@
 .descriptionimage{
   padding: 2rem;
 }
+
+#Presentation {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px){
+  #Presentation {
+  display: block;
+  }
+}

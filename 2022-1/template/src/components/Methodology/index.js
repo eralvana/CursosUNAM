@@ -1,6 +1,10 @@
+import Context from "../../context.js"
+import { useContext } from 'react';
+
 import "./styles.css"
 
-function Methodology(props) {
+function Methodology() {
+  const value = useContext(Context);
   return (
     <section id="Methodology" className="background-1">
       <div>
@@ -8,14 +12,14 @@ function Methodology(props) {
       </div>
       <div class="methodology">
       <div class="center">
-        El curso se desarrollará completamente en la modalidad a distancia en <b><i>Classroom</i></b> (el código de la clase es <b>{props.classroomcode}</b> y <b><a href={props.classroominvitation} target="_blank">aquí</a></b> está la invitación) y se dividirá en dos partes:
+        El curso se desarrollará completamente en la modalidad a distancia en <b><i>Classroom</i></b> (el código de la clase es <b>{value.classroom.code}</b> y <b><a href={value.classroom.invitation} target="_blank">aquí</a></b> está la invitación) y se dividirá en dos partes:
       </div>
       <ol>
         <li>
           Se pubicará semanalmente el material que contendrá los temas que serán evaluados de manera mensual.
         </li>
         <li>
-          Se realizarán video-reuniones, los días <b>martes, miércoles y jueves</b> a través de <b><i>Meet</i></b> (<b><a href={props.meetlink} target="_blank">aquí</a></b> el enlace de la reunión) en el horario indicado en la <b><a href={props.courselinkpageweb} target="_blank">página de la facultad</a></b>, en las que se expondrán los temas tratados en el material que se publique.
+          Se realizarán video-reuniones, los días <b>martes, miércoles y jueves</b> a través de <b><i>Meet</i></b> (<b><a href={value.meetlink} target="_blank">aquí</a></b> el enlace de la reunión) en el horario indicado en la <b><a href={value.courselinkpageweb} target="_blank">página de la facultad</a></b>, en las que se expondrán los temas tratados en el material que se publique.
         </li>
       </ol>
       <div class="center">
