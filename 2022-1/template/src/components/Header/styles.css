@@ -6,7 +6,6 @@ header {
 
 @media (max-width: 950px){
   header{
-    position:inherit;
-    min-width: auto;
+    padding: 0;
   }
 }
