@@ -24,7 +24,7 @@ code {
   transition: all 350ms;
 }
 
-.background-0 a:hover {
+.background-0 a:hover, .active-0 {
   color: #EFEFEF;
   background-color: #185ADB;
 }
@@ -66,4 +66,10 @@ ul, ol, li {
 .center {
   padding: 2rem;
   text-align: center;
+}
+
+@media (max-width: 950px){
+  section {
+    padding-top: 3rem;
+  }
 }

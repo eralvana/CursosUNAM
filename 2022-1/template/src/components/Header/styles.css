@@ -1,7 +1,12 @@
 header {
   padding: 1rem 0rem;
+  position: fixed;
+  min-width: 100%;
 }
 
-/* header h1 {
-  margin: 0rem 0rem 1.5rem;
-} */
+@media (max-width: 950px){
+  header{
+    position:inherit;
+    min-width: auto;
+  }
+}

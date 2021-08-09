@@ -1,7 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useContext } from 'react';
 
 import Context from "../../context.js"
-import { useContext } from 'react';
 
 import Nav from "../Nav"
 

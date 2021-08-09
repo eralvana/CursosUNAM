@@ -7,7 +7,7 @@ function Description() {
   const value = useContext(Context);
   return (
     <section id="Description" className="background-3">
-      <div>
+      <div class="description">
         <h1>Descripción del curso</h1>
       </div>
       <div class="center">
