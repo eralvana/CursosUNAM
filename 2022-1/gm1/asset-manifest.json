@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebe974d9.chunk.css",
-    "main.js": "/static/js/main.77ce5fbf.chunk.js",
-    "main.js.map": "/static/js/main.77ce5fbf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b80697e6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b80697e6.js.map",
-    "static/js/2.001b66f3.chunk.js": "/static/js/2.001b66f3.chunk.js",
-    "static/js/2.001b66f3.chunk.js.map": "/static/js/2.001b66f3.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ebe974d9.chunk.css.map": "/static/css/main.ebe974d9.chunk.css.map",
-    "static/js/2.001b66f3.chunk.js.LICENSE.txt": "/static/js/2.001b66f3.chunk.js.LICENSE.txt"
+    "main.css": "/CursosUNAM/2022-1/gm1/static/css/main.ebe974d9.chunk.css",
+    "main.js": "/CursosUNAM/2022-1/gm1/static/js/main.77ce5fbf.chunk.js",
+    "main.js.map": "/CursosUNAM/2022-1/gm1/static/js/main.77ce5fbf.chunk.js.map",
+    "runtime-main.js": "/CursosUNAM/2022-1/gm1/static/js/runtime-main.42d2e22f.js",
+    "runtime-main.js.map": "/CursosUNAM/2022-1/gm1/static/js/runtime-main.42d2e22f.js.map",
+    "static/js/2.001b66f3.chunk.js": "/CursosUNAM/2022-1/gm1/static/js/2.001b66f3.chunk.js",
+    "static/js/2.001b66f3.chunk.js.map": "/CursosUNAM/2022-1/gm1/static/js/2.001b66f3.chunk.js.map",
+    "index.html": "/CursosUNAM/2022-1/gm1/index.html",
+    "static/css/main.ebe974d9.chunk.css.map": "/CursosUNAM/2022-1/gm1/static/css/main.ebe974d9.chunk.css.map",
+    "static/js/2.001b66f3.chunk.js.LICENSE.txt": "/CursosUNAM/2022-1/gm1/static/js/2.001b66f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b80697e6.js",
+    "static/js/runtime-main.42d2e22f.js",
     "static/js/2.001b66f3.chunk.js",
     "static/css/main.ebe974d9.chunk.css",
     "static/js/main.77ce5fbf.chunk.js"
