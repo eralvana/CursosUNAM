@@ -10,8 +10,8 @@ function Bibliography() {
       <div>
         <h1>Bibliografía</h1>
       </div>
-      <div class="center">
-        <ul class="bibliography">
+      <div className="center">
+        <ul className="bibliography">
         {
         value.bibliography.map(function(e,i){
         return (

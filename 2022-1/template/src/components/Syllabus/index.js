@@ -10,7 +10,7 @@ function Syllabus() {
       <div>
         <h1>Temario</h1>
       </div>
-      <div class="syllabus">
+      <div className="syllabus">
         <ol>
         {
           value.syllabus.map((e,i) => <li key={i}>{e}.</li>)

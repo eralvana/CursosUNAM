@@ -1,9 +1,14 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import useWindowSize from '../../useWindowSize';
 
 import "./styles.css"
 
 function Nav() {
-  const offset = -210
+  const [width] = useWindowSize();
+  let offset = -210;
+  if (width <= 950) {
+    offset = -134;
+  }
   return (
     <nav>
       <ul className="background-0">

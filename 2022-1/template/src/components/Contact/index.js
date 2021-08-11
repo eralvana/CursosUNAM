@@ -10,7 +10,7 @@ function Contact() {
       <div>
         <h1>Contacto</h1>
       </div>
-      <div class="contact">
+      <div className="contact">
         <ul>
           <li>Ernesto Vázquez
             <ul>

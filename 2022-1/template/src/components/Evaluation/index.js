@@ -6,7 +6,7 @@ function Evaluation() {
       <div>
         <h1>Evaluación del curso</h1>
       </div>
-      <div class="evaluation">
+      <div className="evaluation">
         <ul>
           <li>
             Se realizarán al menos cuatro evaluaciones (exámenes parciales, exposición, tarea examen, etcétera). La fecha se establecerá una vez concluidos los temas que engloben la respectiva evaluación (con al menos 5 días de anticipación).
