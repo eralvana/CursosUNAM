@@ -8,16 +8,16 @@ import Contact from "../Contact"
 
 import "./styles.css"
 
-function Main(props) {
+function Main() {
   return (
     <main>
-      <Presentation index={props.index} coursename={props.coursename} group={props.group}/>
-      <Description name={props.name}/>
-      <Syllabus syllabus={props.syllabus}/>
-      <Methodology classroomcode={props.classroomcode} classroominvitation={props.classroominvitation} meetlink={props.meetlink} courselinkpageweb={props.courselinkpageweb}/>
+      <Presentation/>
+      <Description/>
+      <Syllabus/>
+      <Methodology/>
       <Evaluation/>
-      <Bibliography bibliography={props.bibliography}/>
-      <Contact teacherassistant={props.teacherassistant} teacherassistantplace={props.teacherassistantplace} teacherassistantemail={props.teacherassistantemail}/>
+      <Bibliography/>
+      <Contact/>
     </main>
   );
 }
