@@ -13,7 +13,7 @@ import "./styles.css"
 
 function Main() {
   const value = useContext(Context);
-  
+
   return (
     <main>
       <Presentation/>
