@@ -1,23 +1,24 @@
 {
-	"index": "GMI",
+	"index": "GP",
 	"name": "Geometría",
-	"coursename": "Geometría Moderna I",
-	"group": "4091",
-	"syllabus": ["Introducción", "Congruencia", "Semejanza de triángulos", "Semejanza de polígonos", "Teorema de Ceva y Teorema de Menelao", "Teorema de Desargues", "Puntos y rectas armónicos"],
+	"coursename": "Geometría Proyectiva",
+	"group": "4333",
+	"syllabus": ["Introducción", "Triángulos y cuadrángulos", "Principio de dualidad", "Teorema fundamental", "Proyectividades", "Polaridades", "Cónicas", "Coordenadas"],
 	"classroom": {
-		"code": "css4m5n",
-		"invitation": "https://classroom.google.com/c/Mzc0ODIzODQ2MzEx?cjc=css4m5n"
+		"code": "7q66ksa",
+		"invitation": "https://classroom.google.com/c/NDYwNjkyMTE4NDEz?cjc=7q66ksa"
 	},
-	"meetlink": "https://meet.google.com/tjr-kggt-fix",
-	"courselinkpageweb": "http://www.fciencias.unam.mx/docencia/horarios/presentacion/326923",
-	"bibliography": [{
-			"author": "Shively, L.",
-			"year": "1977",
-			"title": "Introducción a la geometría moderna",
-			"printer": "México: CECSA"
+	"meetlink": "https://meet.google.com/ybg-gbrc-rok",
+	"courselinkpageweb": "https://www.fciencias.unam.mx/docencia/horarios/presentacion/333519",
+	"bibliography": [
+		{
+			"author": "Coxeter, H. S. M.",
+			"year": "1987",
+			"title": "Projective Geometry",
+			"printer": "Springer-Verlag"
 		},
 		{
-			"author": "Coxeter, H. & Greitzer, S. ",
+			"author": "Coxeter, H. S. M. & Greitzer, S. ",
 			"year": "1967",
 			"title": "Geometry revisited",
 			"printer": "New Math. Library, MAA"
@@ -29,27 +30,27 @@
 			"printer": "UTHEA"
 		},
 		{
-			"author": "Bulajich, R. & Goméz, J.A.",
-			"year": "2002",
-			"title": "Geometría, Cuadernos de las Olimpiadas de Matemáticas",
-			"printer": "México: IMATE-UNAM"
+			"author": "Hartshorne, R.",
+			"year": "1967",
+			"title": "Foundations of Proyective Geometry",
+			"printer": "Benjamin"
 		},
 		{
-			"author": "Cárdenas, S.",
-			"year": "2013",
-			"title": "Notas de geometría",
-			"printer": "México: Prensas de Ciencias"
+			"author": "Seidenberg, A.",
+			"year": "1965",
+			"title": "Elementos de geometría proyectiva",
+			"printer": "México: CECSA"
 		},
 		{
-			"author": "Lucio, G., San Agustín, R. & Martínez de la Escalera, N.",
-			"year": "2001",
-			"title": "Un poco de geometría",
-			"printer": "México: Vínculos Matemáticos # 155, Notas de clase. Facultad de Ciencias, UNAM"
+			"author": "Hilbert, D.",
+			"year": "1952",
+			"title": "Geometry and the Imagination",
+			"printer": "Cohn-Vosseu Chelsea"
 		}
 	],
 	"teacherassistant": {
-		"name": "Sandra Cecilia Pérez Valles",
-		"place": "Facultad de Ciencias, UNAM",
-		"email": "sandycecilia97@ciencias.unam.mx"
+		"name": "Briseida Guadalupe Trejo Escamilla",
+		"place": "Aula 4 del Instituto de Matemáticas",
+		"email": "briseida.trejo@ciencias.unam.mx"
 	}
 }

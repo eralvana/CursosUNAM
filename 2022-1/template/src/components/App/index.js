@@ -2,7 +2,7 @@ import React from "react"
 import Header from "../Header"
 import Main from "../Main"
 import Footer from "../Footer"
-import info from "../../info/TG2.json"
+import info from "../../info/GP.json"
 import Context from "../../context.js"
 
 import "./styles.css"
