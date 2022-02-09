@@ -1,0 +1,61 @@
+{
+	"index": "TG2",
+	"name": "Teoría de Gráficas",
+	"coursename": "Teoría de Gráficas II",
+	"group": "4302",
+	"syllabus": ["Digráficas", "Teoría extremal de gráficas", "Dominación en gráficas", "Teoría algebráica de gráficas"],
+	"classroom": {
+		"code": "tnw3noj",
+		"invitation": "https://classroom.google.com/c/NDYwNjkyMTE4NTY5?cjc=tnw3noj"
+	},
+	"meetlink": "https://meet.google.com/wim-dqdd-sxz",
+	"courselinkpageweb": "https://www.fciencias.unam.mx/docencia/horarios/presentacion/332373",
+	"bibliography": [
+		{"author": "Chartrand, G., Lesniak, L. & Zhang, P.",
+			"year": "2015",
+			"title": "Graphs & Digraphs",
+			"printer": "USA: CRC Press"
+		},
+		{
+			"author": "Chartrand, G & Zhang, P.",
+			"year": "2008",
+			"title": "Chromatic Graph Theory",
+			"printer": "USA: CRC Press"
+		},
+		{
+			"author": "Hell, P. & Nesetril, J.",
+			"year": "2004",
+			"title": "Graphs and homomorphisms",
+			"printer": "Oxford"
+		},
+		{
+			"author": "Bondy, J.A. & Murty, U.S.",
+			"year": "2008",
+			"title": "Graph Theory",
+			"printer": "USA: Springer"
+		},
+		{
+			"author": "Bondy, J.A. & Murty, U.S.",
+			"year": "1976",
+			"title": "Graph Theory with applications",
+			"printer": "USA: McMilan Press"
+		},
+		{
+			"author": "Haynes, T.; Hedetniemi, S. & Slater, P.",
+			"year": "1998",
+			"title": "Fundamtenal of Domination in Graphs",
+			"printer": "USA: CRC Press"
+		},
+		{
+			"author": "Xueliang, L. & Yuefang, S.",
+			"year": "2012",
+			"title": "Rainbow connections of Graphs",
+			"printer": "USA: Springer Science & Business Media"
+		}
+	],
+	"teacherassistant": {
+		"name": "Berenice Martínez Barona",
+		"place": "Instituto de Matemáticas",
+		"email": "erebnice@ciencias.unam.mx"
+	}
+}
